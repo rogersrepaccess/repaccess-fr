@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<title></title>
+	<meta content="summary_large_image" name="twitter:card" />
+	<meta content="website" property="og:type" />
+	<meta content="" property="og:description" />
+	<meta content="https://co3rwxun7x.preview-beefreedesign.com/lN6M" property="og:url" />
+	<meta content="https://pro-bee-beepro-thumbnail.getbee.io/messages/1272431/1258571/2259447/12194902_large.jpg" property="og:image" />
+	<meta content="" property="og:title" />
+	<meta content="" name="description" />
+	<meta charset="utf-8" />
+	<meta content="width=device-width" name="viewport" />
+	<style>
+    @font-face {
+          font-family: 'Ted Next';
+          src: url('https://raw.githubusercontent.com/rogersrepaccess/devis/main/fonts/TedNext-Regular.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+        } 
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		body {
+			background-color: #ffffff;
+			color: #000000;
+			font-family: Ted Next;
+		}
+
+		.bee-page-container {
+			background-image: url("https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/em8/syb/k68/Nouveau%20projet%20%2821%29.png")
+		}
+
+		a {
+			color: #7747FF
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		h1,
+		p {
+			margin: 0
+		}
+
+		.bee-row-content {
+			max-width: 1280px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content.reverse,
+		.bee-row-content.reverse .bee-col {
+			-moz-transform: scale(1, -1);
+			-webkit-transform: scale(1, -1);
+			-o-transform: scale(1, -1);
+			-ms-transform: scale(1, -1);
+			transform: scale(1, -1)
+		}
+
+		.bee-row-content .bee-col-w1 {
+			flex-basis: 8.3333333333%
+		}
+
+		.bee-row-content .bee-col-w2 {
+			flex-basis: 16.6666666667%
+		}
+
+		.bee-row-content .bee-col-w3 {
+			flex-basis: 25%
+		}
+
+		.bee-row-content .bee-col-w4 {
+			flex-basis: 33.3333333333%
+		}
+
+		.bee-row-content .bee-col-w6 {
+			flex-basis: 50%
+		}
+
+		.bee-row-content .bee-col-w8 {
+			flex-basis: 66.6666666667%
+		}
+
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-html-block {
+			text-align: center
+		}
+
+		.bee-icon .bee-icon-label-right a {
+			text-decoration: none
+		}
+
+		.bee-divider,
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-divider .center,
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-divider .right {
+			float: right
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-1,
+		.bee-row-3 .bee-col-3 .bee-block-1,
+		.bee-row-3 .bee-col-4 .bee-block-1,
+		.bee-row-3 .bee-col-5 .bee-block-1,
+		.bee-row-3 .bee-col-6 .bee-block-1,
+		.bee-row-6 .bee-col-2 .bee-block-1,
+		.bee-row-6 .bee-col-2 .bee-block-11,
+		.bee-row-6 .bee-col-2 .bee-block-13,
+		.bee-row-6 .bee-col-2 .bee-block-15,
+		.bee-row-6 .bee-col-2 .bee-block-3,
+		.bee-row-6 .bee-col-2 .bee-block-5,
+		.bee-row-6 .bee-col-2 .bee-block-7,
+		.bee-row-6 .bee-col-2 .bee-block-9,
+		.bee-row-9 .bee-col-2 .bee-block-1,
+		.bee-row-9 .bee-col-3 .bee-block-1,
+		.bee-row-9 .bee-col-4 .bee-block-1,
+		.bee-row-9 .bee-col-6 .bee-block-1,
+		.bee-row-9 .bee-col-7 .bee-block-1,
+		.bee-row-9 .bee-col-8 .bee-block-1 {
+			width: 100%
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-10 .bee-row-content,
+		.bee-row-11 .bee-row-content,
+		.bee-row-12 .bee-row-content,
+		.bee-row-13 .bee-row-content,
+		.bee-row-2 .bee-row-content,
+		.bee-row-3 .bee-row-content,
+		.bee-row-4 .bee-row-content,
+		.bee-row-5 .bee-row-content,
+		.bee-row-6 .bee-row-content,
+		.bee-row-7 .bee-row-content,
+		.bee-row-8 .bee-row-content,
+		.bee-row-9 .bee-row-content {
+			border-radius: 0;
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-icon {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		.bee-icon .bee-content {
+			display: flex;
+			align-items: center
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		@media (max-width:768px) {
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+		}
+
+		.bee-row-1 {
+			background-color: #da291c;
+			background-image: url('https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/hnp/iw3/lbh/Nouveau%20projet%20%2815%29.png');
+			background-repeat: no-repeat;
+			background-size: cover
+		}
+
+		.bee-row-1 .bee-row-content {
+			background-size: auto
+		}
+
+		.bee-row-1 .bee-col-1 {
+			padding-bottom: 30px;
+			padding-top: 50px
+		}
+
+		.bee-row-1 .bee-col-2,
+		.bee-row-1 .bee-col-3,
+		.bee-row-1 .bee-col-4,
+		.bee-row-10 .bee-col-1,
+		.bee-row-11 .bee-col-1,
+		.bee-row-11 .bee-col-2,
+		.bee-row-11 .bee-col-3,
+		.bee-row-11 .bee-col-4,
+		.bee-row-11 .bee-col-5,
+		.bee-row-12 .bee-col-1,
+		.bee-row-13 .bee-col-1,
+		.bee-row-14 .bee-col-1,
+		.bee-row-2 .bee-col-1,
+		.bee-row-3 .bee-col-1,
+		.bee-row-3 .bee-col-2,
+		.bee-row-3 .bee-col-3,
+		.bee-row-3 .bee-col-4,
+		.bee-row-3 .bee-col-5,
+		.bee-row-3 .bee-col-6,
+		.bee-row-3 .bee-col-7,
+		.bee-row-4 .bee-col-1,
+		.bee-row-5 .bee-col-1,
+		.bee-row-5 .bee-col-2,
+		.bee-row-5 .bee-col-3,
+		.bee-row-5 .bee-col-4,
+		.bee-row-5 .bee-col-5,
+		.bee-row-6 .bee-col-1,
+		.bee-row-6 .bee-col-2,
+		.bee-row-6 .bee-col-3,
+		.bee-row-6 .bee-col-4,
+		.bee-row-6 .bee-col-5,
+		.bee-row-7 .bee-col-1,
+		.bee-row-8 .bee-col-1,
+		.bee-row-8 .bee-col-2,
+		.bee-row-8 .bee-col-3,
+		.bee-row-8 .bee-col-4,
+		.bee-row-8 .bee-col-5,
+		.bee-row-9 .bee-col-1,
+		.bee-row-9 .bee-col-2,
+		.bee-row-9 .bee-col-3,
+		.bee-row-9 .bee-col-4,
+		.bee-row-9 .bee-col-5,
+		.bee-row-9 .bee-col-6,
+		.bee-row-9 .bee-col-7,
+		.bee-row-9 .bee-col-8,
+		.bee-row-9 .bee-col-9 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-1 .bee-col-2 .bee-block-2 {
+			padding-left: 35px;
+			width: 100%
+		}
+
+		.bee-row-10,
+		.bee-row-11,
+		.bee-row-12,
+		.bee-row-13,
+		.bee-row-2,
+		.bee-row-3,
+		.bee-row-4,
+		.bee-row-5,
+		.bee-row-6,
+		.bee-row-7,
+		.bee-row-8,
+		.bee-row-9 {
+			background-repeat: no-repeat
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-2,
+		.bee-row-11 .bee-col-3 .bee-block-2,
+		.bee-row-11 .bee-col-4 .bee-block-2,
+		.bee-row-2 .bee-col-1 .bee-block-1,
+		.bee-row-4 .bee-col-1 .bee-block-1,
+		.bee-row-5 .bee-col-2 .bee-block-2,
+		.bee-row-5 .bee-col-4 .bee-block-2,
+		.bee-row-8 .bee-col-2 .bee-block-2,
+		.bee-row-8 .bee-col-4 .bee-block-2 {
+			padding: 10px
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-2,
+		.bee-row-3 .bee-col-3 .bee-block-2,
+		.bee-row-3 .bee-col-4 .bee-block-2,
+		.bee-row-3 .bee-col-5 .bee-block-2,
+		.bee-row-3 .bee-col-6 .bee-block-2,
+		.bee-row-9 .bee-col-2 .bee-block-2,
+		.bee-row-9 .bee-col-3 .bee-block-2,
+		.bee-row-9 .bee-col-4 .bee-block-2,
+		.bee-row-9 .bee-col-6 .bee-block-2,
+		.bee-row-9 .bee-col-7 .bee-block-2,
+		.bee-row-9 .bee-col-8 .bee-block-2 {
+			padding: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-1,
+		.bee-row-11 .bee-col-3 .bee-block-1,
+		.bee-row-11 .bee-col-4 .bee-block-1,
+		.bee-row-5 .bee-col-2 .bee-block-1,
+		.bee-row-5 .bee-col-4 .bee-block-1,
+		.bee-row-8 .bee-col-2 .bee-block-1,
+		.bee-row-8 .bee-col-4 .bee-block-1 {
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-3,
+		.bee-row-11 .bee-col-3 .bee-block-3,
+		.bee-row-11 .bee-col-4 .bee-block-3 {
+			padding-left: 5px;
+			padding-top: 5px;
+			width: 100%
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-4,
+		.bee-row-11 .bee-col-2 .bee-block-7,
+		.bee-row-11 .bee-col-3 .bee-block-4,
+		.bee-row-11 .bee-col-3 .bee-block-7,
+		.bee-row-11 .bee-col-4 .bee-block-4,
+		.bee-row-11 .bee-col-4 .bee-block-7 {
+			padding: 5px 10px 10px 5px
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-5,
+		.bee-row-11 .bee-col-3 .bee-block-5,
+		.bee-row-11 .bee-col-4 .bee-block-5 {
+			padding: 10px 50px 10px 10px
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-6,
+		.bee-row-11 .bee-col-3 .bee-block-6,
+		.bee-row-11 .bee-col-4 .bee-block-6 {
+			padding-left: 5px;
+			width: 100%
+		}
+
+		.bee-row-14 {
+			background-color: #ffffff;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-14 .bee-row-content {
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-row-14 .bee-col-1 .bee-block-1 {
+			color: #1e0e4b;
+			font-family: Inter, sans-serif;
+			font-size: 15px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-align: center
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1 {
+			color: #101112;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: right
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-4 a,
+		.bee-row-11 .bee-col-2 .bee-block-7 a,
+		.bee-row-11 .bee-col-3 .bee-block-4 a,
+		.bee-row-11 .bee-col-3 .bee-block-7 a,
+		.bee-row-11 .bee-col-4 .bee-block-4 a,
+		.bee-row-11 .bee-col-4 .bee-block-7 a,
+		.bee-row-2 .bee-col-1 .bee-block-1 a {
+			color: #464646
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-11 .bee-col-2 .bee-block-7 p:not(:last-child),
+		.bee-row-11 .bee-col-3 .bee-block-4 p:not(:last-child),
+		.bee-row-11 .bee-col-3 .bee-block-7 p:not(:last-child),
+		.bee-row-11 .bee-col-4 .bee-block-4 p:not(:last-child),
+		.bee-row-11 .bee-col-4 .bee-block-7 p:not(:last-child),
+		.bee-row-2 .bee-col-1 .bee-block-1 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-3 .bee-col-2 .bee-block-2 h1,
+		.bee-row-3 .bee-col-3 .bee-block-2 h1,
+		.bee-row-3 .bee-col-4 .bee-block-2 h1,
+		.bee-row-3 .bee-col-5 .bee-block-2 h1,
+		.bee-row-3 .bee-col-6 .bee-block-2 h1 {
+			color: #000000;
+			direction: ltr;
+			font-family: Ted Next;
+			font-size: 19px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-1 h1,
+		.bee-row-11 .bee-col-3 .bee-block-1 h1,
+		.bee-row-11 .bee-col-4 .bee-block-1 h1,
+		.bee-row-5 .bee-col-2 .bee-block-1 h1,
+		.bee-row-5 .bee-col-4 .bee-block-1 h1,
+		.bee-row-8 .bee-col-2 .bee-block-1 h1,
+		.bee-row-8 .bee-col-4 .bee-block-1 h1 {
+			color: #000000;
+			direction: ltr;
+			font-family: Ted Next;
+			font-size: 30px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-9 .bee-col-2 .bee-block-2 h1,
+		.bee-row-9 .bee-col-3 .bee-block-2 h1,
+		.bee-row-9 .bee-col-4 .bee-block-2 h1,
+		.bee-row-9 .bee-col-6 .bee-block-2 h1,
+		.bee-row-9 .bee-col-7 .bee-block-2 h1,
+		.bee-row-9 .bee-col-8 .bee-block-2 h1 {
+			color: #000000;
+			direction: ltr;
+			font-family:Ted Next;
+			font-size: 14px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-4,
+		.bee-row-11 .bee-col-2 .bee-block-7,
+		.bee-row-11 .bee-col-3 .bee-block-4,
+		.bee-row-11 .bee-col-3 .bee-block-7,
+		.bee-row-11 .bee-col-4 .bee-block-4,
+		.bee-row-11 .bee-col-4 .bee-block-7 {
+			color: #101112;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-14 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-14 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
+			margin-left: 0
+		}
+
+		.bee-row-14 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+	</style>
+</head>
+
+<body>
+	<div class="bee-page-container">
+		<div class="bee-row bee-row-1">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="" class="bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/qas/1c3/azs/AtFmt1u.png" style="max-width:178px;" /></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w8">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-spacer">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-2">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p><a href="https://rogersrepaccess.github.io/repaccess-en/" rel="noopener" style="text-decoration: underline;" target="_blank">English</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-3">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/devis/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/r4i/43d/e68/Devis%20%284%29.png" style="max-width:139px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Devis express</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/couleurs-appareils/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/sba/tan/vfv/Couleurs%20appareils%20%282%29.png" style="max-width:139px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Couleurs appareils</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/calculateur-acompte/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jz5/zc6/hkp/Calculateur%20acompte%20%282%29.png" style="max-width:139px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Calculateur d'acompte</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/cartes-appels/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/nve/u5j/cft/Cartes%20d%27appel%20%282%29.png" style="max-width:139px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Cartes d'appel</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-6 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/compteur-caisse/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/pc4/5fi/y3z/Compteur%20de%20caisse%20%282%29.png" style="max-width:139px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Compteur de caisse</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-7 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-4">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-spacer">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-5">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:30px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Liens utiles</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Communications</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-6">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-image"><a href="https://lh5.googleusercontent.com/TdJVpzsElhlgtahcY6tqrXP3pGUNz23cXHuGkpk0ACgBODyT51-dyXQj63oZbb6zLHtozHiALuHlR8trWHTexsI=w1280" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3on/h65/jz2/Code%20postal.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-2 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-image"><a href="https://lh5.googleusercontent.com/8ANOqIK2Hu-5ME7sND3JRnFKyfD3Si7ulofFT2la5NNVqBl6APpvLE5_HgH1i0mYloosN6Gzbuz6ASlwKPD6vC4=w1280" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ds8/jxi/pfp/Kronos.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-4 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-5 bee-image"><a href="http://bit.ly/3VNoU8I" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/r4j/wt2/sto/Etiquettes%20appareils.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-6 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-7 bee-image"><a href="https://lh4.googleusercontent.com/j2eXmFXTDkKyyLtuZ6vtOd5XAw3Uyc2e8Yr2IEb1qLhg9EUZFiWglJqUXy7FnuTdHwzGcLBJxrguRdNS0C5WFg=w1280" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/a3u/uwr/k4v/Kimovil.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-8 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-9 bee-image"><a href="https://teams.microsoft.com/go" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jsp/uoe/17s/Code%20postal%20%281%29.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-10 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-11 bee-image"><a href="https://outlook.office365.com/mail/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/tde/w76/xcz/Code%20postal%20%282%29.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-12 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-13 bee-image"><a href="https://www.microsoft365.com/launch/excel?auth=2" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/b47/j8f/yj7/Code%20postal%20%283%29.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-14 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-15 bee-image"><a href="https://www.microsoft365.com/launch/word?auth=2" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ndp/umt/pil/Code%20postal%20%284%29.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-16 bee-spacer">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-html-block">
+						<!DOCTYPE html>
+
+						<meta charset="utf-8" />
+						<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+						<title>Tableau d'affichage</title>
+						<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+						<style>
+							@font-face {
+								font-family: 'Ted Next';
+								src: url('https://raw.githubusercontent.com/rogersrepaccess/devis/main/fonts/TedNext-Regular.woff') format('woff');
+								font-weight: normal;
+								font-style: normal;
+							}
+
+							body {
+								font-family: 'Ted Next', Arial, sans-serif;
+								margin: 0;
+								padding: 0;
+								background-color: none;
+								color: #333;
+							}
+
+							h1 {
+								text-align: center;
+								color: #4a90e2;
+								margin-top: 20px;
+							}
+
+							button {
+								padding: 10px 15px;
+								background-color: #4a90e2;
+								color: white;
+								border: none;
+								border-radius: 5px;
+								cursor: pointer;
+								font-family: 'Ted Next', Arial, sans-serif;
+								font-size: 1rem;
+							}
+
+							button:hover {
+								background-color: #357abd;
+							}
+
+							.pagination-container {
+								display: flex;
+								justify-content: space-between;
+								align-items: center;
+								margin: auto;
+								max-width: 630px;
+							}
+
+							.pagination {
+								display: inline-block;
+							}
+
+							.pagination button {
+								margin: 0 0px;
+							}
+
+							.pagination .page-number {
+								display: inline-block;
+								margin: 0 5px;
+								font-weight: normal;
+								cursor: pointer;
+							}
+
+							.pagination .active-page {
+								font-weight: bold;
+								text-decoration: underline;
+							}
+
+							.new-message {
+								padding: 10px 15px;
+								background-color: #4a90e2;
+								color: white;
+								border: none;
+								border-radius: 5px;
+								cursor: pointer;
+								font-family: 'Ted Next', Arial, sans-serif;
+								font-size: 1rem;
+							}
+
+							.new-message:hover {
+								background-color: #357abd;
+							}
+
+							.message {
+								border: 1px solid #ddd;
+								padding: 15px;
+								margin: 15px auto;
+								border-radius: 10px;
+								background: #fff;
+								max-width: 600px;
+								box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+							}
+
+							.timestamp {
+								font-size: 0.9em;
+								color: #555;
+								margin-top: 10px;
+							}
+
+							.tag {
+								display: inline-block;
+								padding: 5px 10px;
+								border-radius: 15px;
+								font-size: 0.9em;
+								font-weight: bold;
+								margin-bottom: 10px;
+							}
+
+							.tag.Information {
+								background-color: #fff9c4;
+								color: #ffa726;
+							}
+
+							.tag.Annonce {
+								background-color: #e8f5e9;
+								color: #388e3c;
+							}
+
+							.tag.Urgent {
+								background-color: #ffebee;
+								color: #d32f2f;
+							}
+
+							/* Pop-up et overlay */
+							.popup {
+								position: fixed;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+								width: 90%;
+								max-width: 400px;
+								background: white;
+								padding: 20px;
+								border-radius: 10px;
+								box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+								z-index: 1000;
+								display: none;
+								box-sizing: border-box;
+							}
+
+							.popup-overlay {
+								position: fixed;
+								top: 0;
+								left: 0;
+								width: 100%;
+								height: 100%;
+								background: rgba(0, 0, 0, 0.5);
+								z-index: 999;
+								display: none;
+							}
+
+							.popup-close {
+								background-color: #d32f2f;
+								color: white;
+								border: none;
+								padding: 5px 10px;
+								border-radius: 5px;
+								cursor: pointer;
+								float: right;
+								font-family: 'Ted Next', Arial, sans-serif;
+							}
+
+							.popup-close:hover {
+								background-color: #b71c1c;
+							}
+
+							form label {
+								font-weight: bold;
+								margin-top: 10px;
+								display: block;
+							}
+
+							form input,
+							form textarea,
+							form select {
+								width: calc(100% - 20px);
+								padding: 10px;
+								margin-top: 5px;
+								margin-bottom: 15px;
+								border: 1px solid #ccc;
+								border-radius: 5px;
+								font-family: 'Ted Next', Arial, sans-serif;
+								box-sizing: border-box;
+							}
+
+							form button {
+								width: 100%;
+								padding: 10px;
+								background-color: #4a90e2;
+								color: white;
+								font-weight: bold;
+								font-size: 1rem;
+								border: none;
+								border-radius: 5px;
+							}
+
+							form button:hover {
+								background-color: #357abd;
+							}
+						</style>
+						<!-- Zone d'affichage des messages -->
+						<div id="messages"></div>
+						<!-- Navigation de pagination -->
+						<div class="pagination-container">
+							<div class="pagination" id="pagination"></div>
+							<button class="new-message" id="newMessageBtn"><i class="fa-solid fa-pen-nib"></i> Nouveau</button>
+						</div>
+						<!-- Pop-up pour le formulaire -->
+						<div class="popup-overlay" id="popupOverlay"></div>
+						<div class="popup" id="popupForm">
+							<button class="popup-close" id="closePopup">Fermer</button>
+							<form id="messageForm">
+								<label for="name">Nom :</label>
+								<input id="name" name="entry.1001666619" required="" type="text" />
+								<label for="subject">Objet :</label>
+								<input id="subject" name="entry.881856700" required="" type="text" />
+								<label for="message">Message :</label>
+								<textarea id="message" name="entry.1086285380" required="" rows="4"></textarea>
+								<label for="tag">Étiquette :</label>
+								<select id="tag" name="entry.970335836" required="">
+									<option value="Information">Information</option>
+									<option value="Urgent">Urgent</option>
+									<option value="Annonce">Annonce</option>
+								</select>
+								<button type="submit">Envoyer le message</button>
+							</form>
+						</div>
+						<script>
+							const apiUrl = "https://script.google.com/macros/s/AKfycbxlkMvuT_QwPvJyxnu4FKLp46Lxu53OyHj8AZGGSN-jxPuKsnH2DnyAik6zTYmlcwSGpA/exec";
+							const formResponseUrl = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf4wwopX72McO2flcLvDp47RE2CMSRBxhBQWE2GSpddr8fqjg/formResponse";
+							let allMessages = [];
+							let currentPage = 0;
+							const messagesPerPage = 3;
+
+							// Charger les messages existants
+							async function fetchMessages() {
+								const response = await fetch(apiUrl);
+								allMessages = await response.json();
+								displayMessages();
+							}
+
+							function formatDateTime(timestamp) {
+								const date = new Date(timestamp);
+								const day = String(date.getDate()).padStart(2, "0");
+								const month = String(date.getMonth() + 1).padStart(2, "0");
+								const year = date.getFullYear();
+								const hours = String(date.getHours()).padStart(2, "0");
+								const minutes = String(date.getMinutes()).padStart(2, "0");
+								return {
+									date: `${day}/${month}/${year}`,
+									time: `${hours}h${minutes}`,
+								};
+							}
+
+							function displayMessages() {
+								const container = document.getElementById("messages");
+								container.innerHTML = "";
+
+								const startIndex = currentPage * messagesPerPage;
+								const endIndex = startIndex + messagesPerPage;
+								const toDisplay = allMessages.slice(-endIndex, -startIndex || undefined).reverse();
+
+								toDisplay.forEach(message => {
+									const timestamp = formatDateTime(message.Horodatage);
+									const messageDiv = document.createElement("div");
+									messageDiv.className = "message";
+									messageDiv.innerHTML = `
+    <div class="tag ${message.Étiquette}">${message.Étiquette}</div>
+    <strong>${message.Objet}</strong><br>
+    <em>Par ${message.Nom}</em><br>
+    <p>${message.Message}</p>
+    <div class="timestamp">
+      <strong>Date :</strong> ${timestamp.date}<br>
+      <strong>Heure :</strong> ${timestamp.time}
+    </div>
+  `;
+									container.appendChild(messageDiv);
+								});
+
+								updatePagination();
+							}
+
+							function updatePagination() {
+								const totalPages = Math.ceil(allMessages.length / messagesPerPage);
+								const paginationContainer = document.getElementById("pagination");
+								paginationContainer.innerHTML = "";
+
+								// Bouton Précédent avec icône
+								const prevButton = document.createElement("button");
+								prevButton.innerHTML = '<i class="fas fa-chevron-left"></i>'; // Icône "chevron gauche"
+								prevButton.disabled = currentPage === 0;
+								prevButton.addEventListener("click", () => {
+									currentPage--;
+									displayMessages();
+								});
+								paginationContainer.appendChild(prevButton);
+
+								// Affichage de la première page toujours
+								const firstPage = document.createElement("span");
+								firstPage.innerText = "1";
+								firstPage.className = "page-number" + (currentPage === 0 ? " active-page" : "");
+								firstPage.addEventListener("click", () => {
+									currentPage = 0;
+									displayMessages();
+								});
+								paginationContainer.appendChild(firstPage);
+
+								// Ellipse après la première page si nécessaire
+								if (currentPage >= 2) {
+									const ellipsis1 = document.createElement("span");
+									ellipsis1.innerText = "...";
+									paginationContainer.appendChild(ellipsis1);
+								}
+
+								// Affichage de la page active et des deux suivantes
+								for (let i = Math.max(currentPage, 1); i < Math.min(currentPage + 3, totalPages - 1); i++) {
+									const pageNumber = document.createElement("span");
+									pageNumber.innerText = i + 1;
+									pageNumber.className = "page-number" + (i === currentPage ? " active-page" : "");
+									pageNumber.addEventListener("click", () => {
+										currentPage = i;
+										displayMessages();
+									});
+									paginationContainer.appendChild(pageNumber);
+								}
+
+								// Ellipse avant la dernière page si nécessaire
+								if (currentPage + 3 < totalPages - 1) {
+									const ellipsis2 = document.createElement("span");
+									ellipsis2.innerText = "...";
+									paginationContainer.appendChild(ellipsis2);
+								}
+
+								// Affichage de la dernière page
+								if (totalPages > 1) {
+									const lastPage = document.createElement("span");
+									lastPage.innerText = totalPages;
+									lastPage.className = "page-number" + (currentPage === totalPages - 1 ? " active-page" : "");
+									lastPage.addEventListener("click", () => {
+										currentPage = totalPages - 1;
+										displayMessages();
+									});
+									paginationContainer.appendChild(lastPage);
+								}
+
+								// Bouton Suivant avec icône
+								const nextButton = document.createElement("button");
+								nextButton.innerHTML = '<i class="fas fa-chevron-right"></i>'; // Icône "chevron droite"
+								nextButton.disabled = currentPage >= totalPages - 1;
+								nextButton.addEventListener("click", () => {
+									currentPage++;
+									displayMessages();
+								});
+								paginationContainer.appendChild(nextButton);
+							}
+
+							// Gestion de l'affichage du pop-up
+							const newMessageBtn = document.getElementById("newMessageBtn");
+							const popupOverlay = document.getElementById("popupOverlay");
+							const popupForm = document.getElementById("popupForm");
+							const closePopup = document.getElementById("closePopup");
+
+							newMessageBtn.addEventListener("click", () => {
+								popupOverlay.style.display = "block";
+								popupForm.style.display = "block";
+							});
+
+							closePopup.addEventListener("click", () => {
+								popupOverlay.style.display = "none";
+								popupForm.style.display = "none";
+							});
+
+							// Gestion de l'ajout de message
+							const messageForm = document.getElementById("messageForm");
+							messageForm.addEventListener("submit", async (event) => {
+								event.preventDefault();
+
+								const formData = new FormData(messageForm);
+								await fetch(formResponseUrl, {
+									method: "POST",
+									body: formData,
+									mode: "no-cors"
+								});
+
+								setTimeout(fetchMessages, 2000);
+								messageForm.reset();
+								popupOverlay.style.display = "none";
+								popupForm.style.display = "none";
+							});
+
+							fetchMessages();
+						</script>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-7">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-8">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Rogers</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Fido</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-9">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3k0/veb/bic/rogers-site.png" style="max-width:80px;" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Site Web</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/znt/qnm/2me/rogers-options.png" style="max-width:80px;" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Options</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/dnc/gn9/hv6/rogers-carte.png" style="max-width:80px;" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Carte couverture</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-6 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/32z/jrz/q36/fido-site.png" style="max-width:80px;" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Site Web</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-7 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jen/a2t/ff6/fido-options.png" style="max-width:80px;" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Options</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-8 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ywh/hjj/1mh/fido-carte.png" style="max-width:80px;" /></div>
+					<div class="bee-block bee-block-2 bee-heading">
+						<h1><span class="tinyMce-placeholder">Carte couverture</span> </h1>
+					</div>
+				</div>
+				<div class="bee-col bee-col-9 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-10">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-11">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Compétition</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ges/pnf/tbr/videotron%20%281%29.png" style="max-width:315px;" /></div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fvideotron.com%2Fmobilite%2Ftelephones-mobiles&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3KLH3SSUmQp1CTq9WLjdRR" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fvideotron.com%2Fmobilite%2Fforfaits-cellulaire&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1gaao9lH0zkCttIgM9-UkF" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
+					</div>
+					<div class="bee-block bee-block-5 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-6 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/l2w/43g/mwt/fizz%20%281%29.png" style="max-width:315px;" /></div>
+					<div class="bee-block bee-block-7 bee-paragraph">
+						<p><a href="https://www.google.com/url?q=https%3A%2F%2Ffizz.ca%2Ffr%2Fplp%3Fprice__number%5Bmin%5D%3D0%26sort_by%3Dfield_displayorder_value&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0eeVm0jyzmWKODrNU7mDwg" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Ffizz.ca%2Ffr%2Fmobile%3FADDONS%5B0%5D%3D18%26CVRG%3D108%26DATA%3D661%26PLAN%3D2%26SMS%3D223%26VOICE%3D90%26WIZARD%3Dmobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0fyqkDgKBX6YqTZFycRAL0" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder"></span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:38px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/fe1/cx2/0rf/bell%20%281%29.png" style="max-width:315px;" /></div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.bell.ca%2FMobilite%2FTelephones_cellulaires_intelligent_et_Internet_mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw270ARgntUzsFD5BIrtpkRO" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.bell.ca%2FMobilite%2FForfaits%2FForfaits-illimites&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0rFtl5qO4RkYbSbbp-jYCC" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
+					</div>
+					<div class="bee-block bee-block-5 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-6 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/2bm/7gw/tk8/virgin-plus%20%281%29.png" style="max-width:315px;" /></div>
+					<div class="bee-block bee-block-7 bee-paragraph">
+						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.virginplus.ca%2Ffr%2Fphones%2Fphones-summary.html%3Fprovince%3DON%26geoResult%3DON&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw15p26bh1d4kCGvlneZWLB1" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.virginplus.ca%2Ffr%2Fplans%2Fpostpaid.html%23!%2FBYOP%2Fresearch&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw065sidRq-cLQcFwiJ6K-7G" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder"></span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="spacer" style="height:38px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/qsv/8gn/7b5/telus%20%281%29.png" style="max-width:315px;" /></div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.telus.com%2Ffr%2Fmobility%2Fphones%3FsessionFlow%3Dconsumer%26linkname%3DT%25C3%25A9l%25C3%25A9phones%26linktype%3Dge-meganav&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2zL8b0mAZZfO0_VZp2yPhu" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.telus.com%2Ffr%2Fmobility%2Fplans%3Flinkname%3DForfaits%26linktype%3Dge-meganav&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3Oj4l34OS3kAQS7LHJ225D" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
+					</div>
+					<div class="bee-block bee-block-5 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-6 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/fqr/3af/qbu/koodo%20%281%29.png" style="max-width:315px;" /></div>
+					<div class="bee-block bee-block-7 bee-paragraph">
+						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.koodomobile.com%2Ffr%2Fphones%3FINTCMP%3DKMNew_NavMenu_Shop_Phones%23all_phones&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2tWlRqB_BJvk_e3u1TIJWp" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.koodomobile.com%2Ffr%2Frate-plans%3FINTCMP%3DKMNew_NavMenu_Shop_Plans&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3canFqF7n4niUpZG56ueZK" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-12">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-13">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:200px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-14">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-icons">
+						<div class="bee-icon bee-icon-last">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
