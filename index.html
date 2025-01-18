@@ -2,8 +2,7 @@
 <html lang="">
 
 <head>
-	<link rel="icon" href="favicon.png" type="image/png">
-    <title>RepAccess</title>
+	<title></title>
 	<meta content="summary_large_image" name="twitter:card" />
 	<meta content="website" property="og:type" />
 	<meta content="" property="og:description" />
@@ -14,12 +13,14 @@
 	<meta charset="utf-8" />
 	<meta content="width=device-width" name="viewport" />
 	<style>
-    @font-face {
-          font-family: 'Ted Next';
-          src: url('https://raw.githubusercontent.com/rogersrepaccess/devis/main/fonts/TedNext-Regular.woff') format('woff');
-          font-weight: normal;
-          font-style: normal;
-        } 
+    
+     @font-face {
+       font-family: 'Ted Next';
+       src: url('https://raw.githubusercontent.com/rogersrepaccess/devis/main/fonts/TedNext-Regular.woff') format('woff');
+       font-weight: normal;
+       font-style: normal;
+    } 
+    
 		.bee-row,
 		.bee-row-content {
 			position: relative
@@ -32,9 +33,13 @@
 		}
 
 		.bee-page-container {
-			background-image: url("https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/em8/syb/k68/Nouveau%20projet%20%2821%29.png")
+			background-image: url("https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/em8/syb/k68/Nouveau%20projet%20%2821%29.png");
+			background-position: top left;
+			background-size: cover;
+			background-repeat: no-repeat
 		}
 
+		.bee-row-12 .bee-col-2 .bee-block-6 a,
 		a {
 			color: #7747FF
 		}
@@ -47,6 +52,11 @@
 		h1,
 		p {
 			margin: 0
+		}
+    
+    .X {
+			font-size: 16px;
+      
 		}
 
 		.bee-row-content {
@@ -80,6 +90,10 @@
 			flex-basis: 33.3333333333%
 		}
 
+		.bee-row-content .bee-col-w5 {
+			flex-basis: 41.6666666667%
+		}
+
 		.bee-row-content .bee-col-w6 {
 			flex-basis: 50%
 		}
@@ -92,10 +106,12 @@
 			flex-basis: 100%
 		}
 
+		.bee-button .content,
 		.bee-html-block {
 			text-align: center
 		}
 
+		.bee-button a,
 		.bee-icon .bee-icon-label-right a {
 			text-decoration: none
 		}
@@ -130,9 +146,9 @@
 		.bee-row-9 .bee-col-2 .bee-block-1,
 		.bee-row-9 .bee-col-3 .bee-block-1,
 		.bee-row-9 .bee-col-4 .bee-block-1,
-		.bee-row-9 .bee-col-6 .bee-block-1,
 		.bee-row-9 .bee-col-7 .bee-block-1,
-		.bee-row-9 .bee-col-8 .bee-block-1 {
+		.bee-row-9 .bee-col-8 .bee-block-1,
+		.bee-row-9 .bee-col-9 .bee-block-1 {
 			width: 100%
 		}
 
@@ -141,6 +157,9 @@
 		.bee-row-11 .bee-row-content,
 		.bee-row-12 .bee-row-content,
 		.bee-row-13 .bee-row-content,
+		.bee-row-14 .bee-row-content,
+		.bee-row-15 .bee-row-content,
+		.bee-row-16 .bee-row-content,
 		.bee-row-2 .bee-row-content,
 		.bee-row-3 .bee-row-content,
 		.bee-row-4 .bee-row-content,
@@ -205,8 +224,19 @@
 		.bee-row-11 .bee-col-4,
 		.bee-row-11 .bee-col-5,
 		.bee-row-12 .bee-col-1,
+		.bee-row-12 .bee-col-2,
+		.bee-row-12 .bee-col-3,
+		.bee-row-12 .bee-col-4,
+		.bee-row-12 .bee-col-5,
 		.bee-row-13 .bee-col-1,
 		.bee-row-14 .bee-col-1,
+		.bee-row-14 .bee-col-2,
+		.bee-row-14 .bee-col-3,
+		.bee-row-14 .bee-col-4,
+		.bee-row-14 .bee-col-5,
+		.bee-row-15 .bee-col-1,
+		.bee-row-16 .bee-col-1,
+		.bee-row-17 .bee-col-1,
 		.bee-row-2 .bee-col-1,
 		.bee-row-3 .bee-col-1,
 		.bee-row-3 .bee-col-2,
@@ -233,6 +263,9 @@
 		.bee-row-8 .bee-col-4,
 		.bee-row-8 .bee-col-5,
 		.bee-row-9 .bee-col-1,
+		.bee-row-9 .bee-col-10,
+		.bee-row-9 .bee-col-11,
+		.bee-row-9 .bee-col-12,
 		.bee-row-9 .bee-col-2,
 		.bee-row-9 .bee-col-3,
 		.bee-row-9 .bee-col-4,
@@ -254,6 +287,9 @@
 		.bee-row-11,
 		.bee-row-12,
 		.bee-row-13,
+		.bee-row-14,
+		.bee-row-15,
+		.bee-row-16,
 		.bee-row-2,
 		.bee-row-3,
 		.bee-row-4,
@@ -266,8 +302,10 @@
 		}
 
 		.bee-row-11 .bee-col-2 .bee-block-2,
-		.bee-row-11 .bee-col-3 .bee-block-2,
 		.bee-row-11 .bee-col-4 .bee-block-2,
+		.bee-row-14 .bee-col-2 .bee-block-2,
+		.bee-row-14 .bee-col-3 .bee-block-2,
+		.bee-row-14 .bee-col-4 .bee-block-2,
 		.bee-row-2 .bee-col-1 .bee-block-1,
 		.bee-row-4 .bee-col-1 .bee-block-1,
 		.bee-row-5 .bee-col-2 .bee-block-2,
@@ -285,17 +323,19 @@
 		.bee-row-9 .bee-col-2 .bee-block-2,
 		.bee-row-9 .bee-col-3 .bee-block-2,
 		.bee-row-9 .bee-col-4 .bee-block-2,
-		.bee-row-9 .bee-col-6 .bee-block-2,
 		.bee-row-9 .bee-col-7 .bee-block-2,
-		.bee-row-9 .bee-col-8 .bee-block-2 {
+		.bee-row-9 .bee-col-8 .bee-block-2,
+		.bee-row-9 .bee-col-9 .bee-block-2 {
 			padding: 10px;
 			text-align: center;
 			width: 100%
 		}
 
 		.bee-row-11 .bee-col-2 .bee-block-1,
-		.bee-row-11 .bee-col-3 .bee-block-1,
 		.bee-row-11 .bee-col-4 .bee-block-1,
+		.bee-row-14 .bee-col-2 .bee-block-1,
+		.bee-row-14 .bee-col-3 .bee-block-1,
+		.bee-row-14 .bee-col-4 .bee-block-1,
 		.bee-row-5 .bee-col-2 .bee-block-1,
 		.bee-row-5 .bee-col-4 .bee-block-1,
 		.bee-row-8 .bee-col-2 .bee-block-1,
@@ -307,47 +347,69 @@
 			width: 100%
 		}
 
-		.bee-row-11 .bee-col-2 .bee-block-3,
-		.bee-row-11 .bee-col-3 .bee-block-3,
-		.bee-row-11 .bee-col-4 .bee-block-3 {
+		.bee-row-12 .bee-col-2 .bee-block-1,
+		.bee-row-12 .bee-col-2 .bee-block-2,
+		.bee-row-12 .bee-col-2 .bee-block-3,
+		.bee-row-12 .bee-col-2 .bee-block-4,
+		.bee-row-12 .bee-col-2 .bee-block-5 {
+			padding: 5px;
+			text-align: left
+		}
+
+		.bee-row-12 .bee-col-2 .bee-block-6 {
+			padding: 10px 10px 10px 5px
+		}
+
+		.bee-row-12 .bee-col-4 .bee-block-1,
+		.bee-row-12 .bee-col-4 .bee-block-2,
+		.bee-row-12 .bee-col-4 .bee-block-3,
+		.bee-row-12 .bee-col-4 .bee-block-4,
+		.bee-row-12 .bee-col-4 .bee-block-5,
+		.bee-row-12 .bee-col-4 .bee-block-6 {
+			padding: 5px 10px
+		}
+
+		.bee-row-14 .bee-col-2 .bee-block-3,
+		.bee-row-14 .bee-col-3 .bee-block-3,
+		.bee-row-14 .bee-col-4 .bee-block-3 {
 			padding-left: 5px;
 			padding-top: 5px;
 			width: 100%
 		}
 
-		.bee-row-11 .bee-col-2 .bee-block-4,
-		.bee-row-11 .bee-col-2 .bee-block-7,
-		.bee-row-11 .bee-col-3 .bee-block-4,
-		.bee-row-11 .bee-col-3 .bee-block-7,
-		.bee-row-11 .bee-col-4 .bee-block-4,
-		.bee-row-11 .bee-col-4 .bee-block-7 {
+		.bee-row-14 .bee-col-2 .bee-block-4,
+		.bee-row-14 .bee-col-2 .bee-block-7,
+		.bee-row-14 .bee-col-3 .bee-block-4,
+		.bee-row-14 .bee-col-3 .bee-block-7,
+		.bee-row-14 .bee-col-4 .bee-block-4,
+		.bee-row-14 .bee-col-4 .bee-block-7 {
 			padding: 5px 10px 10px 5px
 		}
 
-		.bee-row-11 .bee-col-2 .bee-block-5,
-		.bee-row-11 .bee-col-3 .bee-block-5,
-		.bee-row-11 .bee-col-4 .bee-block-5 {
+		.bee-row-14 .bee-col-2 .bee-block-5,
+		.bee-row-14 .bee-col-3 .bee-block-5,
+		.bee-row-14 .bee-col-4 .bee-block-5 {
 			padding: 10px 50px 10px 10px
 		}
 
-		.bee-row-11 .bee-col-2 .bee-block-6,
-		.bee-row-11 .bee-col-3 .bee-block-6,
-		.bee-row-11 .bee-col-4 .bee-block-6 {
+		.bee-row-14 .bee-col-2 .bee-block-6,
+		.bee-row-14 .bee-col-3 .bee-block-6,
+		.bee-row-14 .bee-col-4 .bee-block-6 {
 			padding-left: 5px;
 			width: 100%
 		}
 
-		.bee-row-14 {
+		.bee-row-17 {
 			background-color: #ffffff;
 			background-repeat: no-repeat
 		}
 
-		.bee-row-14 .bee-row-content {
+		.bee-row-17 .bee-row-content {
 			background-repeat: no-repeat;
 			color: #000000
 		}
 
-		.bee-row-14 .bee-col-1 .bee-block-1 {
+		.bee-row-17 .bee-col-1 .bee-block-1 {
 			color: #1e0e4b;
 			font-family: Inter, sans-serif;
 			font-size: 15px;
@@ -366,22 +428,29 @@
 			text-align: right
 		}
 
-		.bee-row-11 .bee-col-2 .bee-block-4 a,
-		.bee-row-11 .bee-col-2 .bee-block-7 a,
-		.bee-row-11 .bee-col-3 .bee-block-4 a,
-		.bee-row-11 .bee-col-3 .bee-block-7 a,
-		.bee-row-11 .bee-col-4 .bee-block-4 a,
-		.bee-row-11 .bee-col-4 .bee-block-7 a,
+		.bee-row-14 .bee-col-2 .bee-block-4 a,
+		.bee-row-14 .bee-col-2 .bee-block-7 a,
+		.bee-row-14 .bee-col-3 .bee-block-4 a,
+		.bee-row-14 .bee-col-3 .bee-block-7 a,
+		.bee-row-14 .bee-col-4 .bee-block-4 a,
+		.bee-row-14 .bee-col-4 .bee-block-7 a,
 		.bee-row-2 .bee-col-1 .bee-block-1 a {
 			color: #464646
 		}
 
-		.bee-row-11 .bee-col-2 .bee-block-4 p:not(:last-child),
-		.bee-row-11 .bee-col-2 .bee-block-7 p:not(:last-child),
-		.bee-row-11 .bee-col-3 .bee-block-4 p:not(:last-child),
-		.bee-row-11 .bee-col-3 .bee-block-7 p:not(:last-child),
-		.bee-row-11 .bee-col-4 .bee-block-4 p:not(:last-child),
-		.bee-row-11 .bee-col-4 .bee-block-7 p:not(:last-child),
+		.bee-row-12 .bee-col-2 .bee-block-6 p:not(:last-child),
+		.bee-row-12 .bee-col-4 .bee-block-1 p:not(:last-child),
+		.bee-row-12 .bee-col-4 .bee-block-2 p:not(:last-child),
+		.bee-row-12 .bee-col-4 .bee-block-3 p:not(:last-child),
+		.bee-row-12 .bee-col-4 .bee-block-4 p:not(:last-child),
+		.bee-row-12 .bee-col-4 .bee-block-5 p:not(:last-child),
+		.bee-row-12 .bee-col-4 .bee-block-6 p:not(:last-child),
+		.bee-row-14 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-14 .bee-col-2 .bee-block-7 p:not(:last-child),
+		.bee-row-14 .bee-col-3 .bee-block-4 p:not(:last-child),
+		.bee-row-14 .bee-col-3 .bee-block-7 p:not(:last-child),
+		.bee-row-14 .bee-col-4 .bee-block-4 p:not(:last-child),
+		.bee-row-14 .bee-col-4 .bee-block-7 p:not(:last-child),
 		.bee-row-2 .bee-col-1 .bee-block-1 p:not(:last-child) {
 			margin-bottom: 16px
 		}
@@ -402,8 +471,10 @@
 		}
 
 		.bee-row-11 .bee-col-2 .bee-block-1 h1,
-		.bee-row-11 .bee-col-3 .bee-block-1 h1,
 		.bee-row-11 .bee-col-4 .bee-block-1 h1,
+		.bee-row-14 .bee-col-2 .bee-block-1 h1,
+		.bee-row-14 .bee-col-3 .bee-block-1 h1,
+		.bee-row-14 .bee-col-4 .bee-block-1 h1,
 		.bee-row-5 .bee-col-2 .bee-block-1 h1,
 		.bee-row-5 .bee-col-4 .bee-block-1 h1,
 		.bee-row-8 .bee-col-2 .bee-block-1 h1,
@@ -421,12 +492,12 @@
 		.bee-row-9 .bee-col-2 .bee-block-2 h1,
 		.bee-row-9 .bee-col-3 .bee-block-2 h1,
 		.bee-row-9 .bee-col-4 .bee-block-2 h1,
-		.bee-row-9 .bee-col-6 .bee-block-2 h1,
 		.bee-row-9 .bee-col-7 .bee-block-2 h1,
-		.bee-row-9 .bee-col-8 .bee-block-2 h1 {
+		.bee-row-9 .bee-col-8 .bee-block-2 h1,
+		.bee-row-9 .bee-col-9 .bee-block-2 h1 {
 			color: #000000;
 			direction: ltr;
-			font-family:Ted Next;
+			font-family: Ted Next;
 			font-size: 14px;
 			font-weight: 700;
 			letter-spacing: normal;
@@ -434,12 +505,38 @@
 			text-align: center
 		}
 
-		.bee-row-11 .bee-col-2 .bee-block-4,
-		.bee-row-11 .bee-col-2 .bee-block-7,
-		.bee-row-11 .bee-col-3 .bee-block-4,
-		.bee-row-11 .bee-col-3 .bee-block-7,
-		.bee-row-11 .bee-col-4 .bee-block-4,
-		.bee-row-11 .bee-col-4 .bee-block-7 {
+		.bee-row-12 .bee-col-2 .bee-block-1 a,
+		.bee-row-12 .bee-col-2 .bee-block-2 a,
+		.bee-row-12 .bee-col-2 .bee-block-3 a,
+		.bee-row-12 .bee-col-2 .bee-block-4 a,
+		.bee-row-12 .bee-col-2 .bee-block-5 a {
+			background-color: #7747FF;
+			border-radius: 4px;
+			color: #ffffff;
+			direction: ltr;
+			font-family: inherit;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 200%;
+			padding-left: 10px;
+			padding-right: 10px;
+			width: auto
+		}
+
+		.bee-row-12 .bee-col-2 .bee-block-6,
+		.bee-row-12 .bee-col-4 .bee-block-1,
+		.bee-row-12 .bee-col-4 .bee-block-2,
+		.bee-row-12 .bee-col-4 .bee-block-3,
+		.bee-row-12 .bee-col-4 .bee-block-4,
+		.bee-row-12 .bee-col-4 .bee-block-5,
+		.bee-row-12 .bee-col-4 .bee-block-6,
+		.bee-row-14 .bee-col-2 .bee-block-4,
+		.bee-row-14 .bee-col-2 .bee-block-7,
+		.bee-row-14 .bee-col-3 .bee-block-4,
+		.bee-row-14 .bee-col-3 .bee-block-7,
+		.bee-row-14 .bee-col-4 .bee-block-4,
+		.bee-row-14 .bee-col-4 .bee-block-7 {
 			color: #101112;
 			direction: ltr;
 			font-size: 16px;
@@ -449,15 +546,24 @@
 			text-align: left
 		}
 
-		.bee-row-14 .bee-col-1 .bee-block-1 .bee-icon-image {
+		.bee-row-12 .bee-col-4 .bee-block-1 a,
+		.bee-row-12 .bee-col-4 .bee-block-2 a,
+		.bee-row-12 .bee-col-4 .bee-block-3 a,
+		.bee-row-12 .bee-col-4 .bee-block-4 a,
+		.bee-row-12 .bee-col-4 .bee-block-5 a,
+		.bee-row-12 .bee-col-4 .bee-block-6 a {
+			color: #000000
+		}
+
+		.bee-row-17 .bee-col-1 .bee-block-1 .bee-icon-image {
 			padding: 5px 6px 5px 5px
 		}
 
-		.bee-row-14 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
+		.bee-row-17 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
 			margin-left: 0
 		}
 
-		.bee-row-14 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+		.bee-row-17 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
 			margin-right: 0
 		}
 	</style>
@@ -588,7 +694,7 @@
 				</div>
 				<div class="bee-col bee-col-5 bee-col-w1">
 					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:0px;"></div>
+						<div class="spacer" style="height:60px;"></div>
 					</div>
 				</div>
 			</div>
@@ -597,23 +703,23 @@
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w1">
 					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:0px;"></div>
+						<div class="spacer" style="height:60px;"></div>
 					</div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.canadapost-postescanada.ca%2Fscp%2Ffr%2Foutils%2Ftrouver-un-code-postal.page&sa=D&sntz=1&usg=AOvVaw0lg1EkLJ-u62GGQBp7yy4e" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3on/h65/jz2/Code%20postal.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-1 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.canadapost-postescanada.ca%2Fscp%2Ffr%2Foutils%2Ftrouver-un-code-postal.page&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0lg1EkLJ-u62GGQBp7yy4e" target="_blank"><img alt="Trouver un code postal" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3on/h65/jz2/Code%20postal.png" style="max-width:304px;" /></a></div>
 					<div class="bee-block bee-block-2 bee-spacer">
 						<div class="spacer" style="height:15px;"></div>
 					</div>
-					<div class="bee-block bee-block-3 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Frogerscommunications.kronos.net%2Fwfc%2Fapplications%2Fnavigator%2FNavigator.do&sa=D&sntz=1&usg=AOvVaw0FXKyD4P66vu40xp5zHqTi" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ds8/jxi/pfp/Kronos.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-3 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Frogerscommunications.kronos.net%2Fwfc%2Fapplications%2Fnavigator%2FNavigator.do&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0FXKyD4P66vu40xp5zHqTi" target="_blank"><img alt="Kronos (punch)" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ds8/jxi/pfp/Kronos.png" style="max-width:304px;" /></a></div>
 					<div class="bee-block bee-block-4 bee-spacer">
 						<div class="spacer" style="height:15px;"></div>
 					</div>
-					<div class="bee-block bee-block-5 bee-image"><a href="http://bit.ly/3VNoU8I" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/r4j/wt2/sto/Etiquettes%20appareils.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-5 bee-image"><a href="http://bit.ly/3VNoU8I" target="_blank"><img alt="Étiquettes appareils" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/r4j/wt2/sto/Etiquettes%20appareils.png" style="max-width:304px;" /></a></div>
 					<div class="bee-block bee-block-6 bee-spacer">
 						<div class="spacer" style="height:15px;"></div>
 					</div>
-					<div class="bee-block bee-block-7 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.kimovil.com%2Ffr%2Fcomparer&sa=D&sntz=1&usg=AOvVaw2bMpxER1S_95Alo-kTdu1Y" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/a3u/uwr/k4v/Kimovil.png" style="max-width:304px;" /></a></div>
+					<div class="bee-block bee-block-7 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.kimovil.com%2Ffr%2Fcomparer&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2bMpxER1S_95Alo-kTdu1Y" target="_blank"><img alt="Kimovil (comparaisons)" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/a3u/uwr/k4v/Kimovil.png" style="max-width:304px;" /></a></div>
 					<div class="bee-block bee-block-8 bee-spacer">
 						<div class="spacer" style="height:15px;"></div>
 					</div>
@@ -636,7 +742,7 @@
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w1">
 					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
+						<div class="spacer" style="height:60px;"></div>
 					</div>
 				</div>
 				<div class="bee-col bee-col-4 bee-col-w6">
@@ -661,7 +767,6 @@
 								padding: 0;
 								background-color: none;
 								color: #333;
-                
 							}
 
 							h1 {
@@ -699,8 +804,6 @@
 
 							.pagination button {
 								margin: 0 0px;
-                margin-right: 10px;
-                margin-left: 10px;
 							}
 
 							.pagination .page-number {
@@ -733,13 +836,11 @@
 							.message {
 								border: 1px solid #ddd;
 								padding: 15px;
-								margin: auto;
-                margin-bottom: 15px;
+								margin: 15px auto;
 								border-radius: 10px;
 								background: #fff;
-								max-width: 620px;
+								max-width: 600px;
 								box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                text-align: left;
 							}
 
 							.timestamp {
@@ -1066,7 +1167,7 @@
 						<div class="spacer" style="height:60px;"></div>
 					</div>
 				</div>
-				<div class="bee-col bee-col-2 bee-col-w3">
+				<div class="bee-col bee-col-2 bee-col-w4">
 					<div class="bee-block bee-block-1 bee-heading">
 						<h1><span class="tinyMce-placeholder">Rogers</span> </h1>
 					</div>
@@ -1079,7 +1180,7 @@
 						<div class="spacer" style="height:60px;"></div>
 					</div>
 				</div>
-				<div class="bee-col bee-col-4 bee-col-w3">
+				<div class="bee-col bee-col-4 bee-col-w4">
 					<div class="bee-block bee-block-1 bee-heading">
 						<h1><span class="tinyMce-placeholder">Fido</span> </h1>
 					</div>
@@ -1087,7 +1188,7 @@
 						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
 					</div>
 				</div>
-				<div class="bee-col bee-col-5 bee-col-w4">
+				<div class="bee-col bee-col-5 bee-col-w2">
 					<div class="bee-block bee-block-1 bee-spacer">
 						<div class="spacer" style="height:60px;"></div>
 					</div>
@@ -1102,21 +1203,21 @@
 					</div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.rogers.com%2F&sa=D&sntz=1&usg=AOvVaw3zbgOsJR5apkGIn-KJIb7W" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3k0/veb/bic/rogers-site.png" style="max-width:80px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Site Web</span> </h1>
+					<div class="bee-block bee-block-1 bee-image"><a href="https://www.rogers.com/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3k0/veb/bic/rogers-site.png" style="max-width:80px;" /></a></div>
+					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
+						<h4><span class="tinyMce-placeholder">Site Web</span> </h4>
 					</div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.rogers.com%2Fmobility%2Fadd-ons%3Ficid%3DR_WIR_CMH_5KCTX0&sa=D&sntz=1&usg=AOvVaw016BIs7MGhCTr-H-OfNfHA" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/znt/qnm/2me/rogers-options.png" style="max-width:80px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Options</span> </h1>
+					<div class="bee-block bee-block-1 bee-image"><a href="https://www.rogers.com/mobility/add-ons?icid=R_WIR_CMH_5KCTX0" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/znt/qnm/2me/rogers-options.png" style="max-width:80px;" /></a></div>
+					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
+						<h4><span class="tinyMce-placeholder">Options</span> </h4>
 					</div>
 				</div>
 				<div class="bee-col bee-col-4 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.rogers.com%2Fmobility%2Fnetwork-coverage-map%3Ficid%3DR_WIR_NTW_HEUQFZ&sa=D&sntz=1&usg=AOvVaw2Yh_8x_bS31FMo13OPPV8C" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/dnc/gn9/hv6/rogers-carte.png" style="max-width:80px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Carte couverture</span> </h1>
+					<div class="bee-block bee-block-1 bee-image"><a href="https://www.rogers.com/mobility/network-coverage-map?icid=R_WIR_NTW_HEUQFZ" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/dnc/gn9/hv6/rogers-carte.png" style="max-width:80px;" /></a></div>
+					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
+						<h4><span class="tinyMce-placeholder">Carte couverture</span> </h4>
 					</div>
 				</div>
 				<div class="bee-col bee-col-5 bee-col-w1">
@@ -1125,24 +1226,39 @@
 					</div>
 				</div>
 				<div class="bee-col bee-col-6 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.fido.ca&sa=D&sntz=1&usg=AOvVaw0ABvmwLrET2X21_PorkolX" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/32z/jrz/q36/fido-site.png" style="max-width:80px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Site Web</span> </h1>
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
 					</div>
 				</div>
 				<div class="bee-col bee-col-7 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="http://www.google.com/url?q=http%3A%2F%2Fwww.fido.ca%2Foptions&sa=D&sntz=1&usg=AOvVaw3eATksxk0QkaJ-PMMN28T6" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jen/a2t/ff6/fido-options.png" style="max-width:80px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Options</span> </h1>
+					<div class="bee-block bee-block-1 bee-image"><a href="https://www.fido.ca/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/32z/jrz/q36/fido-site.png" style="max-width:80px;" /></a></div>
+					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
+						<h4><span class="tinyMce-placeholder">Site Web</span> </h4>
 					</div>
 				</div>
 				<div class="bee-col bee-col-8 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.fido.ca%2Fmobility%2Fnetwork-coverage-map&sa=D&sntz=1&usg=AOvVaw28ItRvBXihyGP_KE8Xy9_2" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ywh/hjj/1mh/fido-carte.png" style="max-width:80px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Carte couverture</span> </h1>
+					<div class="bee-block bee-block-1 bee-image"><a href="https://www.fido.ca/add-ons" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jen/a2t/ff6/fido-options.png" style="max-width:80px;" /></a></div>
+					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
+						<h4><span class="tinyMce-placeholder">Options</span> </h4>
 					</div>
 				</div>
-				<div class="bee-col bee-col-9 bee-col-w4">
+				<div class="bee-col bee-col-9 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-image"><a href="https://www.fido.ca/mobility/network-coverage-map" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ywh/hjj/1mh/fido-carte.png" style="max-width:80px;" /></a></div>
+					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
+						<h4><span class="tinyMce-placeholder">Carte couverture</span> </h4>
+					</div>
+				</div>
+				<div class="bee-col bee-col-10 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-11 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-12 bee-col-w1">
 					<div class="bee-block bee-block-1 bee-spacer">
 						<div class="spacer" style="height:60px;"></div>
 					</div>
@@ -1159,6 +1275,99 @@
 			</div>
 		</div>
 		<div class="bee-row bee-row-11">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Rapports</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><span class="tinyMce-placeholder">Liens rapides</span> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w2">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-12">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/a1ad1258-a4f2-4980-a870-79f461976720?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">104. Rapport sur GamePlan</span></a></div>
+					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/3135f18a-7627-4dc0-9fc9-55ca3143db25?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">102. Rapport de ventes</span></a></div>
+					<div class="bee-block bee-block-3 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/3135f18a-7627-4dc0-9fc9-55ca3143db25?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">204. Rapport sur le BPO</span></a></div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/cfbbd086-01b0-4d2b-9436-af0d777a2085?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">301. Rapport sur les stocks (appareils/accessoires)</span></a></div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/862dc2fd-df2b-4078-b0a5-8f732115feed?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;experience=power-bi" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">121. Heatmap</span></a></div>
+					<div class="bee-block bee-block-6 bee-paragraph">
+						<p><a href="https://theloop.rogers.com/fr/Reports.aspx" rel="noopener" style="text-decoration: underline;" target="_blank">Tous les rapports</a></p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-4 bee-col-w5">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p><a href="http://www.rogersfasttrack.com/users/index.aspx" rel="noopener" style="text-decoration: underline;" target="_blank">Voie rapide</a></p>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p><a href="https://www.purolator.com/" rel="noopener" style="text-decoration: underline;" target="_blank">Purolator</a></p>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p><a href="https://www.brandedretail.rogers.com:8443/ords/pls/cl/TRIAGE_FORMS_ORDS_STORE.home_page" rel="noopener" style="text-decoration: underline;" target="_blank">Triage forms</a></p>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p><a href="https://www.brandedretail.rogers.com:8443/ords/pls/cl/DIRECT_TOSTORE_ORPOS_ORDS.home_page" rel="noopener" style="text-decoration: underline;" target="_blank">Portail des stocks</a></p>
+					</div>
+					<div class="bee-block bee-block-5 bee-paragraph">
+						<p><a href="https://www.rogerszone.ca/en-ca" rel="noopener" style="text-decoration: underline;" target="_blank">Rogers Zone</a></p>
+					</div>
+					<div class="bee-block bee-block-6 bee-paragraph">
+						<p><a href="https://www.connexionrhrogers.com/" rel="noopener" style="text-decoration: underline;" target="_blank">HR Connect</a></p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-5 bee-col-w1">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-13">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:20px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-14">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w1">
 					<div class="bee-block bee-block-1 bee-spacer">
@@ -1189,7 +1398,7 @@
 						<h1><span class="tinyMce-placeholder"></span> </h1>
 					</div>
 					<div class="bee-block bee-block-2 bee-divider">
-						<div class="spacer" style="height:38px;"></div>
+						<div class="spacer" style="height:40px;"></div>
 					</div>
 					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/fe1/cx2/0rf/bell%20%281%29.png" style="max-width:315px;" /></div>
 					<div class="bee-block bee-block-4 bee-paragraph">
@@ -1208,7 +1417,7 @@
 						<h1><span class="tinyMce-placeholder"></span> </h1>
 					</div>
 					<div class="bee-block bee-block-2 bee-divider">
-						<div class="spacer" style="height:38px;"></div>
+						<div class="spacer" style="height:40px;"></div>
 					</div>
 					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/qsv/8gn/7b5/telus%20%281%29.png" style="max-width:315px;" /></div>
 					<div class="bee-block bee-block-4 bee-paragraph">
@@ -1229,7 +1438,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-12">
+		<div class="bee-row bee-row-15">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-spacer">
@@ -1238,22 +1447,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-13">
+		<div class="bee-row bee-row-16">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:200px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-14">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-icons">
-						<div class="bee-icon bee-icon-last">
-							
-						</div>
+						<div class="spacer" style="height:100px;"></div>
 					</div>
 				</div>
 			</div>
