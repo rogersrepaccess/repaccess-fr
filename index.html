@@ -1,1463 +1,1224 @@
-<!DOCTYPE html>
-<html lang="">
-
+<!doctype html>
+<html lang="fr">
 <head>
-	<link rel="icon" href="favicon.png" type="image/png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
   <title>RepAccess</title>
-	<meta content="summary_large_image" name="twitter:card" />
-	<meta content="website" property="og:type" />
-	<meta content="" property="og:description" />
-	<meta content="https://co3rwxun7x.preview-beefreedesign.com/lN6M" property="og:url" />
-	<meta content="https://pro-bee-beepro-thumbnail.getbee.io/messages/1272431/1258571/2259447/12194902_large.jpg" property="og:image" />
-	<meta content="" property="og:title" />
-	<meta content="" name="description" />
-	<meta charset="utf-8" />
-	<meta content="width=device-width" name="viewport" />
-	<style>
+
+  <style>
     
-     @font-face {
-       font-family: 'Ted Next';
-       src: url('https://raw.githubusercontent.com/rogersrepaccess/devis/main/fonts/TedNext-Regular.woff') format('woff');
-       font-weight: normal;
-       font-style: normal;
-    } 
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
     
-		.bee-row,
-		.bee-row-content {
-			position: relative
-		}
-
-		body {
-			background-color: #ffffff;
-			color: #000000;
-			font-family: Ted Next;
-		}
-
-		.bee-page-container {
-			background-image: url("https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/em8/syb/k68/Nouveau%20projet%20%2821%29.png");
-			background-position: top left;
-			background-size: cover;
-			background-repeat: no-repeat
-		}
-
-		.bee-row-12 .bee-col-2 .bee-block-6 a,
-		a {
-			color: #7747FF
-		}
-
-		* {
-			box-sizing: border-box
-		}
-
-		body,
-		h1,
-		p {
-			margin: 0
-		}
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+    }
     
-    .X {
-			font-size: 16px;
-      
-		}
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Semibold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-SemiBoldItalic.woff') format('woff');
+      font-weight: bold;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Bold.woff') format('woff');
+      font-weight: bolder;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-BoldItalic.woff') format('woff');
+      font-weight: bolder;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Light.woff') format('woff');
+      font-weight: lighter;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-LightItalic.woff') format('woff');
+      font-weight: lighter;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next Condensed';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Condensed.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    :root{
+      --bg: #0b1220;
+      --card: rgba(255,255,255,0.06);
+      --card2: rgba(255,255,255,0.08);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.68);
+      --stroke: rgba(255,255,255,0.12);
+      --radius: 18px;
+      --footer: rgba(255,255,255,0.0);
+    }
 
-		.bee-row-content {
-			max-width: 1280px;
-			margin: 0 auto;
-			display: flex
-		}
+    *{ box-sizing:border-box; }
 
-		.bee-row-content.reverse,
-		.bee-row-content.reverse .bee-col {
-			-moz-transform: scale(1, -1);
-			-webkit-transform: scale(1, -1);
-			-o-transform: scale(1, -1);
-			-ms-transform: scale(1, -1);
-			transform: scale(1, -1)
-		}
+    body{
+      margin:0;
+      font-family: Ted Next;
+      background:
+        radial-gradient(1200px 600px at 20% 0%, rgba(64,120,255,0.18), transparent 55%),
+        radial-gradient(900px 500px at 100% 30%, rgba(255,70,170,0.14), transparent 55%),
+        var(--bg);
+      color: var(--text);
+    }
 
-		.bee-row-content .bee-col-w1 {
-			flex-basis: 8.3333333333%
-		}
+    .wrap{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+    }
 
-		.bee-row-content .bee-col-w2 {
-			flex-basis: 16.6666666667%
-		}
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:18px;
+      border: 0px solid silver;
+    }
+    
+    .headerLogoImage{
+      width: 150px;
+    }
 
-		.bee-row-content .bee-col-w3 {
-			flex-basis: 25%
-		}
+    .brand{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+      border: 0px solid pink;
+      width: 70%;
+    }
+    
+    
 
-		.bee-row-content .bee-col-w4 {
-			flex-basis: 33.3333333333%
-		}
+    h1{
+      font-size: 28px;
+      margin:0;
+      letter-spacing:0.2px;
+    }
 
-		.bee-row-content .bee-col-w5 {
-			flex-basis: 41.6666666667%
-		}
+    .hint{
+      color: var(--muted);
+      font-size: 13px;
+    }
 
-		.bee-row-content .bee-col-w6 {
-			flex-basis: 50%
-		}
+    .meta{
+      display: none;
+      font-size: 13px;
+      color: var(--muted);
+      text-align:right;
+      line-height:1.35;
+    }
 
-		.bee-row-content .bee-col-w8 {
-			flex-basis: 66.6666666667%
-		}
+    /* --- Section cards --- */
+    .section{
+      background: linear-gradient(180deg, var(--card), transparent 140%);
+      border: 1px solid var(--stroke);
+      border-radius: var(--radius);
+      padding: 18px;
+      margin-top: 16px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+      backdrop-filter: blur(10px);
+    }
 
-		.bee-row-content .bee-col-w12 {
-			flex-basis: 100%
-		}
+    .section-title{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      margin: 0 0 14px 0;
+    }
 
-		.bee-button .content,
-		.bee-html-block {
-			text-align: center
-		}
+    .section-title h2{
+      margin:0;
+      font-size: 18px;
+      letter-spacing:0.2px;
+    }
 
-		.bee-button a,
-		.bee-icon .bee-icon-label-right a {
-			text-decoration: none
-		}
+    .empty{
+      color: var(--muted);
+      font-size: 13px;
+      padding: 10px 2px 2px;
+    }
 
-		.bee-divider,
-		.bee-image {
-			overflow: auto
-		}
+    /* --- Grids --- */
+    .grid6{
+      display:grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 12px;
+    }
+    @media (max-width: 1100px){
+      .grid6{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+    @media (max-width: 650px){
+      .grid6{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
 
-		.bee-divider .center,
-		.bee-image .bee-center {
-			margin: 0 auto
-		}
+    /* --- Default Buttons (sections 2/3/5 + modal) --- */
+    .btn{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      width:100%;
+      text-decoration:none;
+      color: var(--text);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 16px;
+      transition: transform .12s ease, background .12s ease, border-color .12s ease;
+      user-select:none;
+    }
+    .btn:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,0.085);
+      border-color: rgba(255,255,255,0.20);
+    }
+    .btn:active{ transform: translateY(0px) scale(0.99); }
 
-		.bee-divider .right {
-			float: right
-		}
+    .btn .icon{
+      width: 44px;
+      height: 44px;
+      flex: 0 0 44px;
+      border-radius: 0px;
+      background: none;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+    }
+    .btn .icon img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .btn .label{
+      font-weight: 650;
+      letter-spacing:0.1px;
+      line-height:1.15;
+      font-size: 14px;
+    }
 
-		.bee-row-3 .bee-col-2 .bee-block-1,
-		.bee-row-3 .bee-col-3 .bee-block-1,
-		.bee-row-3 .bee-col-4 .bee-block-1,
-		.bee-row-3 .bee-col-5 .bee-block-1,
-		.bee-row-3 .bee-col-6 .bee-block-1,
-		.bee-row-6 .bee-col-2 .bee-block-1,
-		.bee-row-6 .bee-col-2 .bee-block-11,
-		.bee-row-6 .bee-col-2 .bee-block-13,
-		.bee-row-6 .bee-col-2 .bee-block-15,
-		.bee-row-6 .bee-col-2 .bee-block-3,
-		.bee-row-6 .bee-col-2 .bee-block-5,
-		.bee-row-6 .bee-col-2 .bee-block-7,
-		.bee-row-6 .bee-col-2 .bee-block-9,
-		.bee-row-9 .bee-col-2 .bee-block-1,
-		.bee-row-9 .bee-col-3 .bee-block-1,
-		.bee-row-9 .bee-col-4 .bee-block-1,
-		.bee-row-9 .bee-col-7 .bee-block-1,
-		.bee-row-9 .bee-col-8 .bee-block-1,
-		.bee-row-9 .bee-col-9 .bee-block-1 {
-			width: 100%
-		}
+    .btn-large{ padding: 16px 14px; min-height: 78px; }
+    .btn-large .icon{ width: 52px; height:52px; flex-basis:52px; border-radius: 0px; }
+    .btn-large .label{ font-size: 15px; }
 
-		.bee-row-1 .bee-row-content,
-		.bee-row-10 .bee-row-content,
-		.bee-row-11 .bee-row-content,
-		.bee-row-12 .bee-row-content,
-		.bee-row-13 .bee-row-content,
-		.bee-row-14 .bee-row-content,
-		.bee-row-15 .bee-row-content,
-		.bee-row-16 .bee-row-content,
-		.bee-row-2 .bee-row-content,
-		.bee-row-3 .bee-row-content,
-		.bee-row-4 .bee-row-content,
-		.bee-row-5 .bee-row-content,
-		.bee-row-6 .bee-row-content,
-		.bee-row-7 .bee-row-content,
-		.bee-row-8 .bee-row-content,
-		.bee-row-9 .bee-row-content {
-			border-radius: 0;
-			background-repeat: no-repeat;
-			color: #000000
-		}
+    .btn-medium{ padding: 12px 12px; min-height: 64px; }
 
-		.bee-icon {
-			display: inline-block;
-			vertical-align: middle
-		}
+    .btn-quick{ padding: 10px 12px; min-height: 56px; }
+    .btn-quick .icon{ height:40px; width: 40px; border-radius: 0px; border: 0px solid red; padding: 5px;}
+    .btn-quick .icon img{ height:35px; width: 35px;}
+    .btn-quick .label{ font-size: 13.5px; }
 
-		.bee-icon .bee-content {
-			display: flex;
-			align-items: center
-		}
+    /* --- NEW: Section 1 "Outils" buttons (image + bottom title bar) --- */
+    .toolCard{
+      display:flex;
+      flex-direction:column;
+      width:100%;
+      text-decoration:none;
+      border-radius: 20px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.06);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.22);
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+      user-select:none;
+      height: 150px;
+    }
+    .toolCard:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.075);
+      opacity: 0.85;
+    }
+    .toolCard:active{ transform: translateY(0px) scale(0.99); }
 
-		.bee-image img {
-			display: block;
-			width: 100%
-		}
+    .toolCardMedia{
+  /* prend tout l’espace restant dans la carte */
+  flex: 1 1 auto;
 
-		.bee-paragraph {
-			overflow-wrap: anywhere
-		}
+  /* hauteur constante de l'image (reste constant puisque le titre est fixe) */
+  min-height: 90px;            /* ajuste au besoin */
+  background: rgba(80,220,230,0.20);
+  position: relative;
+}
+    .toolCardMedia img{
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      object-fit: cover;
+    }
 
-		@media (max-width:768px) {
-			.bee-row-content:not(.no_stack) {
-				display: block
-			}
-		}
+    .toolCardTitle{
+  /* hauteur constante du bandeau de titre */
+  height: 86px;                 /* ajuste si tu veux plus/moins haut */
+  padding: 10px 18px 20px;
+  background: #f0f0f0;
+  color: #0b0b0b;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.05;
+  letter-spacing: 0.2px;
 
-		.bee-row-1 {
-			background-color: #da291c;
-			background-image: url('https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/hnp/iw3/lbh/Nouveau%20projet%20%2815%29.png');
-			background-repeat: no-repeat;
-			background-size: cover
-		}
+  /* forcer le texte à max 2 lignes, sans changer la hauteur */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;        /* max 2 lignes */
+  overflow: hidden;
+}
 
-		.bee-row-1 .bee-row-content {
-			background-size: auto
-		}
+    .toolCardDisabled{
+      opacity: 0.55;
+      pointer-events:none;
+    }
 
-		.bee-row-1 .bee-col-1 {
-			padding-bottom: 30px;
-			padding-top: 50px
-		}
+    /* --- Section 3: two columns --- */
+    .twoCols{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    @media (max-width: 900px){
+      .twoCols{ grid-template-columns: 1fr; }
+    }
+    .subsection{
+      background: linear-gradient(180deg, var(--card2), transparent 160%);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    
+    #quickRogersTitle{
+      margin-bottom: 10px;
+    }
+    
+    #quickFidoTitle{
+      margin-bottom: 10px;
+    }
+    
+    .subsection-rogers{
+      background: linear-gradient(360deg,rgba(255, 255, 255, 0) 0%, rgba(218, 41, 28, 0.18) 100%);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    
+    .subsection-fido{
+      background: linear-gradient(360deg,rgba(255, 255, 255, 0) 0%, rgba(0, 175, 171, 0.18) 100%);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    
+    .subsection h3{
+      margin: 0 0 10px 0;
+      font-size: 15px;
+      letter-spacing:0.15px;
+    }
+    .stack{
+      display:grid;
+      gap: 10px;
+    }
+    
+    .rfIcon{
+      width: 25px;
+    }
 
-		.bee-row-1 .bee-col-2,
-		.bee-row-1 .bee-col-3,
-		.bee-row-1 .bee-col-4,
-		.bee-row-10 .bee-col-1,
-		.bee-row-11 .bee-col-1,
-		.bee-row-11 .bee-col-2,
-		.bee-row-11 .bee-col-3,
-		.bee-row-11 .bee-col-4,
-		.bee-row-11 .bee-col-5,
-		.bee-row-12 .bee-col-1,
-		.bee-row-12 .bee-col-2,
-		.bee-row-12 .bee-col-3,
-		.bee-row-12 .bee-col-4,
-		.bee-row-12 .bee-col-5,
-		.bee-row-13 .bee-col-1,
-		.bee-row-14 .bee-col-1,
-		.bee-row-14 .bee-col-2,
-		.bee-row-14 .bee-col-3,
-		.bee-row-14 .bee-col-4,
-		.bee-row-14 .bee-col-5,
-		.bee-row-15 .bee-col-1,
-		.bee-row-16 .bee-col-1,
-		.bee-row-17 .bee-col-1,
-		.bee-row-2 .bee-col-1,
-		.bee-row-3 .bee-col-1,
-		.bee-row-3 .bee-col-2,
-		.bee-row-3 .bee-col-3,
-		.bee-row-3 .bee-col-4,
-		.bee-row-3 .bee-col-5,
-		.bee-row-3 .bee-col-6,
-		.bee-row-3 .bee-col-7,
-		.bee-row-4 .bee-col-1,
-		.bee-row-5 .bee-col-1,
-		.bee-row-5 .bee-col-2,
-		.bee-row-5 .bee-col-3,
-		.bee-row-5 .bee-col-4,
-		.bee-row-5 .bee-col-5,
-		.bee-row-6 .bee-col-1,
-		.bee-row-6 .bee-col-2,
-		.bee-row-6 .bee-col-3,
-		.bee-row-6 .bee-col-4,
-		.bee-row-6 .bee-col-5,
-		.bee-row-7 .bee-col-1,
-		.bee-row-8 .bee-col-1,
-		.bee-row-8 .bee-col-2,
-		.bee-row-8 .bee-col-3,
-		.bee-row-8 .bee-col-4,
-		.bee-row-8 .bee-col-5,
-		.bee-row-9 .bee-col-1,
-		.bee-row-9 .bee-col-10,
-		.bee-row-9 .bee-col-11,
-		.bee-row-9 .bee-col-12,
-		.bee-row-9 .bee-col-2,
-		.bee-row-9 .bee-col-3,
-		.bee-row-9 .bee-col-4,
-		.bee-row-9 .bee-col-5,
-		.bee-row-9 .bee-col-6,
-		.bee-row-9 .bee-col-7,
-		.bee-row-9 .bee-col-8,
-		.bee-row-9 .bee-col-9 {
-			padding-bottom: 5px;
-			padding-top: 5px
-		}
+    /* --- Section 0: Store lookup (header) --- */
+    .storeLookup{
+      display:flex;
+      flex-direction:column;
+      align-items:flex-end;
+      gap:6px;
+      min-width: 160px;
+      border: 0px solid lime;
+    }
+    .storeRow{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .storeLabel{
+      font-size: 12.5px;
+      color: var(--muted);
+      white-space:nowrap;
+    }
+    .storeLabelIcon{
+      width: 60px;
+      margin-right: -5px;
+    }
+    .storeInput{
+      width: 100px;
+      height: 35px;
+      padding-left: 10px;
+      font-size: 20px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+      color: rgba(255,255,255,0.92);
+      outline: none;
+      font-family: Ted Next;
+    }
+    .storeInput::placeholder{ color: rgba(255,255,255,0.35); }
+    .storeInput.error{
+      border-color: rgba(255,80,80,0.90);
+      box-shadow: 0 0 0 3px rgba(255,80,80,0.25);
+    }
+    .storeError{
+      font-size:12px;
+      color: rgba(255,130,130,0.95);
+    }
 
-		.bee-row-1 .bee-col-2 .bee-block-2 {
-			padding-left: 35px;
-			width: 100%
-		}
+    /* --- Modal --- */
+    .modalBackdrop{
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 18px;
+      z-index: 9999;
+    }
+    .modalCard{
+      width: min(920px, 100%);
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(15,22,38,0.92);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+    }
+    .modalHeader{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+    .modalTitle{
+      font-weight: 800;
+      letter-spacing:0.2px;
+    }
+    .modalClose{
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+      color: rgba(255,255,255,0.9);
+      border-radius: 12px;
+      padding: 6px 10px;
+      cursor:pointer;
+    }
+    .modalBody{ padding: 14px; }
 
-		.bee-row-10,
-		.bee-row-11,
-		.bee-row-12,
-		.bee-row-13,
-		.bee-row-14,
-		.bee-row-15,
-		.bee-row-16,
-		.bee-row-2,
-		.bee-row-3,
-		.bee-row-4,
-		.bee-row-5,
-		.bee-row-6,
-		.bee-row-7,
-		.bee-row-8,
-		.bee-row-9 {
-			background-repeat: no-repeat
-		}
+    /* ✅ NEW: Store modal grid (3-wide, centered if <3) */
+    .storeModalGrid{
+      display:grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      justify-content:center;   /* centre la grille si elle ne remplit pas */
+      align-content:start;
+      justify-items:stretch;    /* chaque bouton prend la largeur de sa colonne */
+    }
+    /* Largeur "constante" des colonnes, même si 1 ou 2 boutons */
+    .storeModalGrid.cols-1,
+    .storeModalGrid.cols-2,
+    .storeModalGrid.cols-3{
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    /* On limite la largeur totale du groupe à 3 colonnes + gaps, puis on centre */
+    .storeModalGrid{
+      max-width: 840px;
+      margin: 0 auto;           /* centre horizontalement */
+    }
 
-		.bee-row-11 .bee-col-2 .bee-block-2,
-		.bee-row-11 .bee-col-4 .bee-block-2,
-		.bee-row-14 .bee-col-2 .bee-block-2,
-		.bee-row-14 .bee-col-3 .bee-block-2,
-		.bee-row-14 .bee-col-4 .bee-block-2,
-		.bee-row-2 .bee-col-1 .bee-block-1,
-		.bee-row-4 .bee-col-1 .bee-block-1,
-		.bee-row-5 .bee-col-2 .bee-block-2,
-		.bee-row-5 .bee-col-4 .bee-block-2,
-		.bee-row-8 .bee-col-2 .bee-block-2,
-		.bee-row-8 .bee-col-4 .bee-block-2 {
-			padding: 10px
-		}
+    @media (max-width: 900px){
+      .storeModalGrid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: 620px;
+      }
+      .storeModalGrid.cols-1,
+      .storeModalGrid.cols-2,
+      .storeModalGrid.cols-3{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 520px){
+      .storeModalGrid{
+        grid-template-columns: 1fr;
+        max-width: 360px;
+      }
+      .storeModalGrid.cols-1,
+      .storeModalGrid.cols-2,
+      .storeModalGrid.cols-3{
+        grid-template-columns: 1fr;
+      }
+    }
 
-		.bee-row-3 .bee-col-2 .bee-block-2,
-		.bee-row-3 .bee-col-3 .bee-block-2,
-		.bee-row-3 .bee-col-4 .bee-block-2,
-		.bee-row-3 .bee-col-5 .bee-block-2,
-		.bee-row-3 .bee-col-6 .bee-block-2,
-		.bee-row-9 .bee-col-2 .bee-block-2,
-		.bee-row-9 .bee-col-3 .bee-block-2,
-		.bee-row-9 .bee-col-4 .bee-block-2,
-		.bee-row-9 .bee-col-7 .bee-block-2,
-		.bee-row-9 .bee-col-8 .bee-block-2,
-		.bee-row-9 .bee-col-9 .bee-block-2 {
-			padding: 10px;
-			text-align: center;
-			width: 100%
-		}
+    /* --- Section 4: Competition --- */
+    .competitionGrid{
+      display:grid;
+      gap: 12px;
+    }
+    .compCard{
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+      padding: 12px;
+    }
 
-		.bee-row-11 .bee-col-2 .bee-block-1,
-		.bee-row-11 .bee-col-4 .bee-block-1,
-		.bee-row-14 .bee-col-2 .bee-block-1,
-		.bee-row-14 .bee-col-3 .bee-block-1,
-		.bee-row-14 .bee-col-4 .bee-block-1,
-		.bee-row-5 .bee-col-2 .bee-block-1,
-		.bee-row-5 .bee-col-4 .bee-block-1,
-		.bee-row-8 .bee-col-2 .bee-block-1,
-		.bee-row-8 .bee-col-4 .bee-block-1 {
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-top: 10px;
-			text-align: center;
-			width: 100%
-		}
+    .compHeader{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin-bottom: 10px;
+    }
 
-		.bee-row-12 .bee-col-2 .bee-block-1,
-		.bee-row-12 .bee-col-2 .bee-block-2,
-		.bee-row-12 .bee-col-2 .bee-block-3,
-		.bee-row-12 .bee-col-2 .bee-block-4,
-		.bee-row-12 .bee-col-2 .bee-block-5 {
-			padding: 5px;
-			text-align: left
-		}
+    .compLogo{
+      height: 28px;
+      width: auto;
+      max-width: 130px;
+      object-fit: contain;
+      display:block;
+      filter: drop-shadow(0 10px 16px rgba(0,0,0,0.25));
+    }
 
-		.bee-row-12 .bee-col-2 .bee-block-6 {
-			padding: 10px 10px 10px 5px
-		}
+    .compTitle{
+      display:none;
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing:0.15px;
+      line-height:1.1;
+    }
+    .compBtns{
+      display:grid;
+      gap:10px;
+    }
 
-		.bee-row-12 .bee-col-4 .bee-block-1,
-		.bee-row-12 .bee-col-4 .bee-block-2,
-		.bee-row-12 .bee-col-4 .bee-block-3,
-		.bee-row-12 .bee-col-4 .bee-block-4,
-		.bee-row-12 .bee-col-4 .bee-block-5,
-		.bee-row-12 .bee-col-4 .bee-block-6 {
-			padding: 5px 10px
-		}
+    .btnTextOnly{
+      padding: 10px 12px;
+      min-height: 40px;
+      justify-content:center;
+      text-align:center;
+    }
+    .btnTextOnly .label{
+      font-size: 13.5px;
+      font-weight: 750;
+    }
 
-		.bee-row-14 .bee-col-2 .bee-block-3,
-		.bee-row-14 .bee-col-3 .bee-block-3,
-		.bee-row-14 .bee-col-4 .bee-block-3 {
-			padding-left: 5px;
-			padding-top: 5px;
-			width: 100%
-		}
+    /* --- Section 5: Reports --- */
+    .badgeNum{
+      width: 44px;
+      height: 44px;
+      flex:0 0 44px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.14);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight: 900;
+      letter-spacing:0.3px;
+    }
+    
+    /* --- Section 5: style des boutons "Rapports" --- */
+    .reportBtn{
+      border-radius: 18px;                 /* coins */
+      background: #4e148c;  /* fond */
+      border: 1px solid rgba(255,255,255,0.18);
+      min-height: 60px;                    /* hauteur */
+    }
 
-		.bee-row-14 .bee-col-2 .bee-block-4,
-		.bee-row-14 .bee-col-2 .bee-block-7,
-		.bee-row-14 .bee-col-3 .bee-block-4,
-		.bee-row-14 .bee-col-3 .bee-block-7,
-		.bee-row-14 .bee-col-4 .bee-block-4,
-		.bee-row-14 .bee-col-4 .bee-block-7 {
-			padding: 5px 10px 10px 5px
-		}
+    .reportBtn:hover{
+      background: #2a084f;
+      border-color: rgba(255,255,255,0.26);
+    }
+    
+    .languageBtn{
+      background-color: none;
+      color: white;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 0px solid cyan;
+    }
+    
+    #languageBtnElement{
+      background-color: #f0f0f0;
+      color: #0b1220;
+      width: 100px;
+      height: 35px;
+      border-radius: 10px;
+      line-height: 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 0px solid cyan;
+      font-weight: bold;
+      transition-duration: 150ms;
+    }
+    
+    #languageBtnElement:hover{
+      opacity: 0.85;
+    }
+    
+    .footer{
+      background: none;
+      border-top: 1px solid #ffffff1f;
+      border-radius: 0px;
+      padding-top: 18px;
+      margin-top: 40px; 
+    }
+    
+    .footerDiv{
+      display: flex;
+      flex-direction: row;
+      color: white;
+    }
+    
+    .footerRow2{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      color: white;
+      font-style: italic;
+      margin-top: 25px;
+      opacity: 0.65;
+      text-align: center;
+      justify-content: center;
+    }
+    
+    .footerLink1{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+    }
+    
+    .footerLink{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      text-align: center;
+    }
+    
+    .editBtn{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      text-align: right;
+    }
+    
+    #editBtnElement{
+      background-color: #f0f0f0;
+      color: #0b1220;
+      width: 100px;
+      height: 35px;
+      border-radius: 10px;
+      line-height: 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 0px solid cyan;
+      font-weight: bold;
+      transition-duration: 150ms;
+      margin-left: 130px;
+    }
+    
+    #editBtnElement:hover{
+      opacity: 0.85;
+    }
+    
+    .iconoir-edit-pencil{
 
-		.bee-row-14 .bee-col-2 .bee-block-5,
-		.bee-row-14 .bee-col-3 .bee-block-5,
-		.bee-row-14 .bee-col-4 .bee-block-5 {
-			padding: 10px 50px 10px 10px
-		}
-
-		.bee-row-14 .bee-col-2 .bee-block-6,
-		.bee-row-14 .bee-col-3 .bee-block-6,
-		.bee-row-14 .bee-col-4 .bee-block-6 {
-			padding-left: 5px;
-			width: 100%
-		}
-
-		.bee-row-17 {
-			background-color: #ffffff;
-			background-repeat: no-repeat
-		}
-
-		.bee-row-17 .bee-row-content {
-			background-repeat: no-repeat;
-			color: #000000
-		}
-
-		.bee-row-17 .bee-col-1 .bee-block-1 {
-			color: #1e0e4b;
-			font-family: Inter, sans-serif;
-			font-size: 15px;
-			padding-bottom: 5px;
-			padding-top: 5px;
-			text-align: center
-		}
-
-		.bee-row-2 .bee-col-1 .bee-block-1 {
-			color: #101112;
-			direction: ltr;
-			font-size: 16px;
-			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 120%;
-			text-align: right
-		}
-
-		.bee-row-14 .bee-col-2 .bee-block-4 a,
-		.bee-row-14 .bee-col-2 .bee-block-7 a,
-		.bee-row-14 .bee-col-3 .bee-block-4 a,
-		.bee-row-14 .bee-col-3 .bee-block-7 a,
-		.bee-row-14 .bee-col-4 .bee-block-4 a,
-		.bee-row-14 .bee-col-4 .bee-block-7 a,
-		.bee-row-2 .bee-col-1 .bee-block-1 a {
-			color: #464646
-		}
-
-		.bee-row-12 .bee-col-2 .bee-block-6 p:not(:last-child),
-		.bee-row-12 .bee-col-4 .bee-block-1 p:not(:last-child),
-		.bee-row-12 .bee-col-4 .bee-block-2 p:not(:last-child),
-		.bee-row-12 .bee-col-4 .bee-block-3 p:not(:last-child),
-		.bee-row-12 .bee-col-4 .bee-block-4 p:not(:last-child),
-		.bee-row-12 .bee-col-4 .bee-block-5 p:not(:last-child),
-		.bee-row-12 .bee-col-4 .bee-block-6 p:not(:last-child),
-		.bee-row-14 .bee-col-2 .bee-block-4 p:not(:last-child),
-		.bee-row-14 .bee-col-2 .bee-block-7 p:not(:last-child),
-		.bee-row-14 .bee-col-3 .bee-block-4 p:not(:last-child),
-		.bee-row-14 .bee-col-3 .bee-block-7 p:not(:last-child),
-		.bee-row-14 .bee-col-4 .bee-block-4 p:not(:last-child),
-		.bee-row-14 .bee-col-4 .bee-block-7 p:not(:last-child),
-		.bee-row-2 .bee-col-1 .bee-block-1 p:not(:last-child) {
-			margin-bottom: 16px
-		}
-
-		.bee-row-3 .bee-col-2 .bee-block-2 h1,
-		.bee-row-3 .bee-col-3 .bee-block-2 h1,
-		.bee-row-3 .bee-col-4 .bee-block-2 h1,
-		.bee-row-3 .bee-col-5 .bee-block-2 h1,
-		.bee-row-3 .bee-col-6 .bee-block-2 h1 {
-			color: #000000;
-			direction: ltr;
-			font-family: Ted Next;
-			font-size: 19px;
-			font-weight: 700;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.bee-row-11 .bee-col-2 .bee-block-1 h1,
-		.bee-row-11 .bee-col-4 .bee-block-1 h1,
-		.bee-row-14 .bee-col-2 .bee-block-1 h1,
-		.bee-row-14 .bee-col-3 .bee-block-1 h1,
-		.bee-row-14 .bee-col-4 .bee-block-1 h1,
-		.bee-row-5 .bee-col-2 .bee-block-1 h1,
-		.bee-row-5 .bee-col-4 .bee-block-1 h1,
-		.bee-row-8 .bee-col-2 .bee-block-1 h1,
-		.bee-row-8 .bee-col-4 .bee-block-1 h1 {
-			color: #000000;
-			direction: ltr;
-			font-family: Ted Next;
-			font-size: 30px;
-			font-weight: 700;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: left
-		}
-
-		.bee-row-9 .bee-col-2 .bee-block-2 h1,
-		.bee-row-9 .bee-col-3 .bee-block-2 h1,
-		.bee-row-9 .bee-col-4 .bee-block-2 h1,
-		.bee-row-9 .bee-col-7 .bee-block-2 h1,
-		.bee-row-9 .bee-col-8 .bee-block-2 h1,
-		.bee-row-9 .bee-col-9 .bee-block-2 h1 {
-			color: #000000;
-			direction: ltr;
-			font-family: Ted Next;
-			font-size: 14px;
-			font-weight: 700;
-			letter-spacing: normal;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.bee-row-12 .bee-col-2 .bee-block-1 a,
-		.bee-row-12 .bee-col-2 .bee-block-2 a,
-		.bee-row-12 .bee-col-2 .bee-block-3 a,
-		.bee-row-12 .bee-col-2 .bee-block-4 a,
-		.bee-row-12 .bee-col-2 .bee-block-5 a {
-			background-color: #7747FF;
-			border-radius: 4px;
-			color: #ffffff;
-			direction: ltr;
-			font-family: inherit;
-			font-size: 16px;
-			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 200%;
-			padding-left: 10px;
-			padding-right: 10px;
-			width: auto
-		}
-
-		.bee-row-12 .bee-col-2 .bee-block-6,
-		.bee-row-12 .bee-col-4 .bee-block-1,
-		.bee-row-12 .bee-col-4 .bee-block-2,
-		.bee-row-12 .bee-col-4 .bee-block-3,
-		.bee-row-12 .bee-col-4 .bee-block-4,
-		.bee-row-12 .bee-col-4 .bee-block-5,
-		.bee-row-12 .bee-col-4 .bee-block-6,
-		.bee-row-14 .bee-col-2 .bee-block-4,
-		.bee-row-14 .bee-col-2 .bee-block-7,
-		.bee-row-14 .bee-col-3 .bee-block-4,
-		.bee-row-14 .bee-col-3 .bee-block-7,
-		.bee-row-14 .bee-col-4 .bee-block-4,
-		.bee-row-14 .bee-col-4 .bee-block-7 {
-			color: #101112;
-			direction: ltr;
-			font-size: 16px;
-			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 120%;
-			text-align: left
-		}
-
-		.bee-row-12 .bee-col-4 .bee-block-1 a,
-		.bee-row-12 .bee-col-4 .bee-block-2 a,
-		.bee-row-12 .bee-col-4 .bee-block-3 a,
-		.bee-row-12 .bee-col-4 .bee-block-4 a,
-		.bee-row-12 .bee-col-4 .bee-block-5 a,
-		.bee-row-12 .bee-col-4 .bee-block-6 a {
-			color: #000000
-		}
-
-		.bee-row-17 .bee-col-1 .bee-block-1 .bee-icon-image {
-			padding: 5px 6px 5px 5px
-		}
-
-		.bee-row-17 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
-			margin-left: 0
-		}
-
-		.bee-row-17 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
-			margin-right: 0
-		}
-	</style>
+      padding-top: 7px;
+    }
+  </style>
 </head>
 
 <body>
-	<div class="bee-page-container">
-		<div class="bee-row bee-row-1">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:30px;"></div>
-					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="" class="bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/qas/1c3/azs/AtFmt1u.png" style="max-width:178px;" /></div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w8">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:30px;"></div>
-					</div>
-					<div class="bee-block bee-block-2 bee-spacer">
-						<div class="spacer" style="height:30px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-2">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-paragraph">
-						<p><a href="https://rogersrepaccess.github.io/repaccess-en/" rel="noopener" style="text-decoration: underline;" target="_blank">English</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-3">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/devis/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/r4i/43d/e68/Devis%20%284%29.png" style="max-width:139px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Devis express</span> </h1>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/couleurs-appareils/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/sba/tan/vfv/Couleurs%20appareils%20%282%29.png" style="max-width:139px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Couleurs appareils</span> </h1>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/calculateur-acompte/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jz5/zc6/hkp/Calculateur%20acompte%20%282%29.png" style="max-width:139px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Calculateur d'acompte</span> </h1>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/cartes-appels/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/nve/u5j/cft/Cartes%20d%27appel%20%282%29.png" style="max-width:139px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Cartes d'appel</span> </h1>
-					</div>
-				</div>
-				<div class="bee-col bee-col-6 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://rogersrepaccess.github.io/compteur-caisse/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/pc4/5fi/y3z/Compteur%20de%20caisse%20%282%29.png" style="max-width:139px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-heading">
-						<h1><span class="tinyMce-placeholder">Compteur de caisse</span> </h1>
-					</div>
-				</div>
-				<div class="bee-col bee-col-7 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-4">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-divider">
-						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
-					</div>
-					<div class="bee-block bee-block-2 bee-spacer">
-						<div class="spacer" style="height:30px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-5">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:30px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">Liens utiles</span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">Communications</span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-6">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.canadapost-postescanada.ca%2Fscp%2Ffr%2Foutils%2Ftrouver-un-code-postal.page&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0lg1EkLJ-u62GGQBp7yy4e" target="_blank"><img alt="Trouver un code postal" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3on/h65/jz2/Code%20postal.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-2 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-					<div class="bee-block bee-block-3 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Frogerscommunications.kronos.net%2Fwfc%2Fapplications%2Fnavigator%2FNavigator.do&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0FXKyD4P66vu40xp5zHqTi" target="_blank"><img alt="Kronos (punch)" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ds8/jxi/pfp/Kronos.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-4 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-					<div class="bee-block bee-block-5 bee-image"><a href="http://bit.ly/3VNoU8I" target="_blank"><img alt="Étiquettes appareils" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/r4j/wt2/sto/Etiquettes%20appareils.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-6 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-					<div class="bee-block bee-block-7 bee-image"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.kimovil.com%2Ffr%2Fcomparer&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2bMpxER1S_95Alo-kTdu1Y" target="_blank"><img alt="Kimovil (comparaisons)" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/a3u/uwr/k4v/Kimovil.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-8 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-					<div class="bee-block bee-block-9 bee-image"><a href="https://teams.microsoft.com/go" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jsp/uoe/17s/Code%20postal%20%281%29.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-10 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-					<div class="bee-block bee-block-11 bee-image"><a href="https://outlook.office365.com/mail/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/tde/w76/xcz/Code%20postal%20%282%29.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-12 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-					<div class="bee-block bee-block-13 bee-image"><a href="https://www.microsoft365.com/launch/excel?auth=2" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/b47/j8f/yj7/Code%20postal%20%283%29.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-14 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-					<div class="bee-block bee-block-15 bee-image"><a href="https://www.microsoft365.com/launch/word?auth=2" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ndp/umt/pil/Code%20postal%20%284%29.png" style="max-width:304px;" /></a></div>
-					<div class="bee-block bee-block-16 bee-spacer">
-						<div class="spacer" style="height:15px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w6">
-					<div class="bee-block bee-block-1 bee-html-block">
-						<!DOCTYPE html>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <h1></h1>
+        <div class="headerLogo">
+          <a href="https://rogersrepaccess.github.io/repaccess-fr/">
+          <img class="headerLogoImage" src="https://github.com/rogersrepaccess/repaccess-fr/blob/main/images/logo_repaccess_v1_blanc.png?raw=true"></img>
+          </a>
+        </div>
+      </div>
 
-						<meta charset="utf-8" />
-						<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-						<title>Tableau d'affichage</title>
-						<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
-						<style>
-							@font-face {
-								font-family: 'Ted Next';
-								src: url('https://raw.githubusercontent.com/rogersrepaccess/devis/main/fonts/TedNext-Regular.woff') format('woff');
-								font-weight: normal;
-								font-style: normal;
-							}
+      <!-- Section 0 (header): boutique lookup -->
+      <div class="storeLookup">
+        <div class="storeRow">
+          <div class="storeLabel" id="storeLabel">
+              <img class="storeLabelIcon" id="storeLabelIcon" src="https://github.com/rogersrepaccess/repaccess-fr/blob/main/images/icons/numero-boutique_white.png?raw=true"></img>
+          </div>
+          <input
+            id="storeInput"
+            class="storeInput"
+            inputmode="numeric"
+            maxlength="5"
+            placeholder="#"
+            aria-label="Numéro de boutique"
+          />
+        </div>
+        <div id="storeError" class="storeError" style="display:none;">Aucun résultat</div>
+        <div class="meta" id="meta">Chargement…</div>
+      </div>
+  
+  <div class="languageBtn" id="languageBtn">
+    <a id="languageBtnElement" href="https://rogersrepaccess.github.io/repaccess-en/" target="_blank">English</a>
+  </div>
+    </header>
 
-							body {
-								font-family: 'Ted Next', Arial, sans-serif;
-								margin: 0;
-								padding: 0;
-								background-color: none;
-								color: #333;
-							}
+    <!-- Section 1 -->
+    <section class="section" aria-label="Outils">
+      <div class="section-title">
+        <h2 id="toolsTitle">Outils</h2>
+        <div class="hint" id="toolsHint"></div>
+      </div>
+      <div class="grid6" id="outilsGrid"></div>
+      <div class="empty" id="outilsEmpty" style="display:none;">Aucun lien à afficher.</div>
+    </section>
 
-							h1 {
-								text-align: center;
-								color: #4a90e2;
-								margin-top: 20px;
-							}
+    <!-- Section 2 -->
+    <section class="section" aria-label="Liens utiles">
+      <div class="section-title">
+        <h2 id="usefulTitle">Liens utiles</h2>
+        <div class="hint" id="usefulHint"></div>
+      </div>
+      <div class="grid6" id="liensUtilesGrid"></div>
+      <div class="empty" id="liensUtilesEmpty" style="display:none;">Aucun lien à afficher.</div>
+    </section>
 
-							button {
-								padding: 10px 15px;
-								background-color: #4a90e2;
-								color: white;
-								border: none;
-								border-radius: 5px;
-								cursor: pointer;
-								font-family: 'Ted Next', Arial, sans-serif;
-								font-size: 1rem;
-							}
+    <!-- Section 3 -->
+    <section class="section" aria-label="Liens rapides">
+      <div class="section-title">
+        <h2 id="quickTitle">Liens rapides</h2>
+        <div class="hint" id="quickHint"></div>
+      </div>
 
-							button:hover {
-								background-color: #357abd;
-							}
+      <div class="twoCols">
 
-							.pagination-container {
-								display: flex;
-								justify-content: space-between;
-								align-items: center;
-								margin: auto;
-								max-width: 620px;
-							}
+          <div class="subsection-rogers">
+          <div id="quickRogersTitle">
+             <img class="rfIcon" src="https://github.com/rogersrepaccess/repaccess-fr/blob/main/images/icons/rf-icon_rogers.png?raw=true"></img>
+          </div>
+          <div class="stack" id="rogersQuick"></div>
+          <div class="empty" id="rogersEmpty" style="display:none;">Aucun lien à afficher.</div>
 
-							.pagination {
-								display: inline-block;
-							}
+      </div>
 
-							.pagination button {
-								margin: 0 0px;
-							}
 
-							.pagination .page-number {
-								display: inline-block;
-								margin: 0 5px;
-								font-weight: normal;
-								cursor: pointer;
-							}
+          <div class="subsection-fido">
+          <div id="quickFidoTitle">
+            <img class="rfIcon" src="https://github.com/rogersrepaccess/repaccess-fr/blob/main/images/icons/rf-icon_fido-jaune.png?raw=true"></img>
+          </div>
+          <div class="stack" id="fidoQuick"></div>
+          <div class="empty" id="fidoEmpty" style="display:none;">Aucun lien à afficher.</div>
+        </div>
 
-							.pagination .active-page {
-								font-weight: bold;
-								text-decoration: underline;
-							}
+      </div>
+    </section>
 
-							.new-message {
-								padding: 10px 15px;
-								background-color: #4a90e2;
-								color: white;
-								border: none;
-								border-radius: 5px;
-								cursor: pointer;
-								font-family: 'Ted Next', Arial, sans-serif;
-								font-size: 1rem;
-							}
+    <!-- Section 4 -->
+    <section class="section" aria-label="Concurrence">
+      <div class="section-title">
+        <h2 id="competitionTitle">Concurrence</h2>
+        <div class="hint" id="competitionHint"></div>
+      </div>
 
-							.new-message:hover {
-								background-color: #357abd;
-							}
+      <div id="competitionGrid" class="competitionGrid"></div>
+      <div class="empty" id="competitionEmpty" style="display:none;">Aucun lien à afficher.</div>
+    </section>
 
-							.message {
-								border: 1px solid #ddd;
-								padding: 15px;
-								margin: 15px auto;
-								border-radius: 10px;
-								background: #fff;
-								max-width: 600px;
-								box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-							}
+    <!-- Section 5 -->
+    <section class="section" aria-label="Rapports">
+      <div class="section-title">
+        <h2 id="reportsTitle">Rapports</h2>
+        <div class="hint" id="reportsHint"></div>
+      </div>
 
-							.timestamp {
-								font-size: 0.9em;
-								color: #555;
-								margin-top: 10px;
-							}
+      <div class="grid6" id="reportsGrid"></div>
+      <div class="empty" id="reportsEmpty" style="display:none;">Aucun lien à afficher.</div>
+    </section>
 
-							.tag {
-								display: inline-block;
-								padding: 5px 10px;
-								border-radius: 15px;
-								font-size: 0.9em;
-								font-weight: bold;
-								margin-bottom: 10px;
-							}
+    <!-- Footer -->
+    <section class="footer" aria-label="footer">
 
-							.tag.Information {
-								background-color: #fff9c4;
-								color: #ffa726;
-							}
+      <div class="footerDiv" id="footerDiv">
+        
+        <a class="footerLink1" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/tcu-fr" target="_blank" style="color:white; opacity: 0.85;">
+          Termes et conditions d'utilisation
+        </a>
+        
+        <a class="footerLink" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/pc-fr" target="_blank" style="color:white; opacity: 0.85;">
+          Politique de confidentialité
+        </a>
+        
+        <a class="footerLink" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/a-propos" target="_blank" style="color:white; opacity: 0.85;">
+          À propos
+        </a>
+        
+        <a class="footerLink" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/signaler-un-bogue" target="_blank" style="color:white; opacity: 0.85;">
+          Signaler un bogue
+        </a>
+        
+        <div class="editBtn" id="editBtn">
+          <a id="editBtnElement" href="https://docs.google.com/spreadsheets/d/1dvbS1s5sX8uPUB6b20ZTMf5eNOzjCXnf5U0jLL-GDbo/edit?usp=sharing" target="_blank"><i class="iconoir-edit-pencil"></i>
+Modifier</a>
+        </div>
+        
+      </div>
+      
+      <div class="footerDiv" id="footerDiv">
+        
+        <div class="footerRow2">
+        
+          Timothée Vallée 2026 ©
+        
+        </div>
+        
+      </div>
+      
+    </section>
 
-							.tag.Annonce {
-								background-color: #e8f5e9;
-								color: #388e3c;
-							}
+  </div>
 
-							.tag.Urgent {
-								background-color: #ffebee;
-								color: #d32f2f;
-							}
-
-							/* Pop-up et overlay */
-							.popup {
-								position: fixed;
-								top: 50%;
-								left: 50%;
-								transform: translate(-50%, -50%);
-								width: 90%;
-								max-width: 400px;
-								background: white;
-								padding: 20px;
-								border-radius: 10px;
-								box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-								z-index: 1000;
-								display: none;
-								box-sizing: border-box;
-							}
-
-							.popup-overlay {
-								position: fixed;
-								top: 0;
-								left: 0;
-								width: 100%;
-								height: 100%;
-								background: rgba(0, 0, 0, 0.5);
-								z-index: 999;
-								display: none;
-							}
-
-							.popup-close {
-								background-color: #d32f2f;
-								color: white;
-								border: none;
-								padding: 5px 10px;
-								border-radius: 5px;
-								cursor: pointer;
-								float: right;
-								font-family: 'Ted Next', Arial, sans-serif;
-							}
-
-							.popup-close:hover {
-								background-color: #b71c1c;
-							}
-
-							form label {
-								font-weight: bold;
-								margin-top: 10px;
-								display: block;
-							}
-
-							form input,
-							form textarea,
-							form select {
-								width: calc(100% - 20px);
-								padding: 10px;
-								margin-top: 5px;
-								margin-bottom: 15px;
-								border: 1px solid #ccc;
-								border-radius: 5px;
-								font-family: 'Ted Next', Arial, sans-serif;
-								box-sizing: border-box;
-							}
-
-							form button {
-								width: 100%;
-								padding: 10px;
-								background-color: #4a90e2;
-								color: white;
-								font-weight: bold;
-								font-size: 1rem;
-								border: none;
-								border-radius: 5px;
-							}
-
-							form button:hover {
-								background-color: #357abd;
-							}
-						</style>
-						<!-- Zone d'affichage des messages -->
-						<div id="messages"></div>
-						<!-- Navigation de pagination -->
-						<div class="pagination-container">
-							<div class="pagination" id="pagination"></div>
-							<button class="new-message" id="newMessageBtn"><i class="fa-solid fa-pen-nib"></i> Nouveau</button>
-						</div>
-						<!-- Pop-up pour le formulaire -->
-						<div class="popup-overlay" id="popupOverlay"></div>
-						<div class="popup" id="popupForm">
-							<button class="popup-close" id="closePopup">Fermer</button>
-							<form id="messageForm">
-								<label for="name">Nom :</label>
-								<input id="name" name="entry.1001666619" required="" type="text" />
-								<label for="subject">Objet :</label>
-								<input id="subject" name="entry.881856700" required="" type="text" />
-								<label for="message">Message :</label>
-								<textarea id="message" name="entry.1086285380" required="" rows="4"></textarea>
-								<label for="tag">Étiquette :</label>
-								<select id="tag" name="entry.970335836" required="">
-									<option value="Information">Information</option>
-									<option value="Urgent">Urgent</option>
-									<option value="Annonce">Annonce</option>
-								</select>
-								<button type="submit">Envoyer le message</button>
-							</form>
-						</div>
-						<script>
-							const apiUrl = "https://script.google.com/macros/s/AKfycbxlkMvuT_QwPvJyxnu4FKLp46Lxu53OyHj8AZGGSN-jxPuKsnH2DnyAik6zTYmlcwSGpA/exec";
-							const formResponseUrl = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSf4wwopX72McO2flcLvDp47RE2CMSRBxhBQWE2GSpddr8fqjg/formResponse";
-							let allMessages = [];
-							let currentPage = 0;
-							const messagesPerPage = 3;
-
-							// Charger les messages existants
-							async function fetchMessages() {
-								const response = await fetch(apiUrl);
-								allMessages = await response.json();
-								displayMessages();
-							}
-
-							function formatDateTime(timestamp) {
-								const date = new Date(timestamp);
-								const day = String(date.getDate()).padStart(2, "0");
-								const month = String(date.getMonth() + 1).padStart(2, "0");
-								const year = date.getFullYear();
-								const hours = String(date.getHours()).padStart(2, "0");
-								const minutes = String(date.getMinutes()).padStart(2, "0");
-								return {
-									date: `${day}/${month}/${year}`,
-									time: `${hours}h${minutes}`,
-								};
-							}
-
-							function displayMessages() {
-								const container = document.getElementById("messages");
-								container.innerHTML = "";
-
-								const startIndex = currentPage * messagesPerPage;
-								const endIndex = startIndex + messagesPerPage;
-								const toDisplay = allMessages.slice(-endIndex, -startIndex || undefined).reverse();
-
-								toDisplay.forEach(message => {
-									const timestamp = formatDateTime(message.Horodatage);
-									const messageDiv = document.createElement("div");
-									messageDiv.className = "message";
-									messageDiv.innerHTML = `
-    <div class="tag ${message.Étiquette}">${message.Étiquette}</div>
-    <strong>${message.Objet}</strong><br>
-    <em>Par ${message.Nom}</em><br>
-    <p>${message.Message}</p>
-    <div class="timestamp">
-      <strong>Date :</strong> ${timestamp.date}<br>
-      <strong>Heure :</strong> ${timestamp.time}
+  <!-- Modal: Boutique links -->
+  <div id="storeModal" class="modalBackdrop" style="display:none;">
+    <div class="modalCard" role="dialog" aria-modal="true" aria-labelledby="storeModalTitle">
+      <div class="modalHeader">
+        <div class="modalTitle" id="storeModalTitle">Boutique</div>
+        <button class="modalClose" id="storeModalClose" aria-label="Fermer">✕</button>
+      </div>
+      <div class="modalBody">
+        <!-- ✅ changed id/class so we control sizing/centering -->
+        <div id="storeModalButtons" class="storeModalGrid cols-3"></div>
+        <div class="empty" id="storeModalEmpty" style="display:none;">Aucun lien à afficher.</div>
+      </div>
     </div>
-  `;
-									container.appendChild(messageDiv);
-								});
+  </div>
 
-								updatePagination();
-							}
+  <script>
+    const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbziLqBHO0OKnELiYMYG3SEoSRAKuEV4HnWb2amTdYh7adZPi3zodqhYTz_UD3ZmltBxEQ/exec";
+    const UI_LANG = "fr";
+    const FALLBACK_TO_FR = true;
 
-							function updatePagination() {
-								const totalPages = Math.ceil(allMessages.length / messagesPerPage);
-								const paginationContainer = document.getElementById("pagination");
-								paginationContainer.innerHTML = "";
+    const FALLBACK_ICON = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(`
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+        <rect width="64" height="64" rx="14" fill="rgba(255,255,255,0.14)"/>
+        <path d="M18 34l10-10 8 8 10-10" stroke="rgba(255,255,255,0.75)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `);
 
-								// Bouton Précédent avec icône
-								const prevButton = document.createElement("button");
-								prevButton.innerHTML = '<i class="fas fa-chevron-left"></i>'; // Icône "chevron gauche"
-								prevButton.disabled = currentPage === 0;
-								prevButton.addEventListener("click", () => {
-									currentPage--;
-									displayMessages();
-								});
-								paginationContainer.appendChild(prevButton);
+    let APP_DATA = null;
 
-								// Affichage de la première page toujours
-								const firstPage = document.createElement("span");
-								firstPage.innerText = "1";
-								firstPage.className = "page-number" + (currentPage === 0 ? " active-page" : "");
-								firstPage.addEventListener("click", () => {
-									currentPage = 0;
-									displayMessages();
-								});
-								paginationContainer.appendChild(firstPage);
+    function escapeHtml(s){
+      return String(s ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
 
-								// Ellipse après la première page si nécessaire
-								if (currentPage >= 2) {
-									const ellipsis1 = document.createElement("span");
-									ellipsis1.innerText = "...";
-									paginationContainer.appendChild(ellipsis1);
-								}
+    function pickLang(obj, lang){
+      if (!obj || typeof obj !== "object") return "";
+      const v = String(obj[lang] ?? "").trim();
+      if (v) return v;
+      if (FALLBACK_TO_FR && lang !== "fr") return String(obj["fr"] ?? "").trim();
+      return "";
+    }
 
-								// Affichage de la page active et des deux suivantes
-								for (let i = Math.max(currentPage, 1); i < Math.min(currentPage + 3, totalPages - 1); i++) {
-									const pageNumber = document.createElement("span");
-									pageNumber.innerText = i + 1;
-									pageNumber.className = "page-number" + (i === currentPage ? " active-page" : "");
-									pageNumber.addEventListener("click", () => {
-										currentPage = i;
-										displayMessages();
-									});
-									paginationContainer.appendChild(pageNumber);
-								}
+    function normalizeButton(item){
+      return {
+        title: pickLang(item.title, UI_LANG),
+        url:   pickLang(item.url, UI_LANG),
+        icon: item.icon || ""
+      };
+    }
 
-								// Ellipse avant la dernière page si nécessaire
-								if (currentPage + 3 < totalPages - 1) {
-									const ellipsis2 = document.createElement("span");
-									ellipsis2.innerText = "...";
-									paginationContainer.appendChild(ellipsis2);
-								}
+    function createButton(item, sizeClass){
+      const a = document.createElement("a");
+      a.className = `btn ${sizeClass}`;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = item.url || "#";
 
-								// Affichage de la dernière page
-								if (totalPages > 1) {
-									const lastPage = document.createElement("span");
-									lastPage.innerText = totalPages;
-									lastPage.className = "page-number" + (currentPage === totalPages - 1 ? " active-page" : "");
-									lastPage.addEventListener("click", () => {
-										currentPage = totalPages - 1;
-										displayMessages();
-									});
-									paginationContainer.appendChild(lastPage);
-								}
+      const icon = document.createElement("div");
+      icon.className = "icon";
+      const img = document.createElement("img");
+      img.alt = "";
+      img.loading = "lazy";
+      img.src = item.icon || FALLBACK_ICON;
+      img.onerror = () => { img.src = FALLBACK_ICON; };
+      icon.appendChild(img);
 
-								// Bouton Suivant avec icône
-								const nextButton = document.createElement("button");
-								nextButton.innerHTML = '<i class="fas fa-chevron-right"></i>'; // Icône "chevron droite"
-								nextButton.disabled = currentPage >= totalPages - 1;
-								nextButton.addEventListener("click", () => {
-									currentPage++;
-									displayMessages();
-								});
-								paginationContainer.appendChild(nextButton);
-							}
+      const label = document.createElement("div");
+      label.className = "label";
+      label.innerHTML = escapeHtml(item.title || (UI_LANG === "fr" ? "(Sans titre)" : "(Untitled)"));
 
-							// Gestion de l'affichage du pop-up
-							const newMessageBtn = document.getElementById("newMessageBtn");
-							const popupOverlay = document.getElementById("popupOverlay");
-							const popupForm = document.getElementById("popupForm");
-							const closePopup = document.getElementById("closePopup");
+      a.appendChild(icon);
+      a.appendChild(label);
 
-							newMessageBtn.addEventListener("click", () => {
-								popupOverlay.style.display = "block";
-								popupForm.style.display = "block";
-							});
+      if (!item.url){
+        a.style.opacity = "0.55";
+        a.style.pointerEvents = "none";
+      }
+      return a;
+    }
 
-							closePopup.addEventListener("click", () => {
-								popupOverlay.style.display = "none";
-								popupForm.style.display = "none";
-							});
+    function createTextOnlyButton(labelText, url){
+      const a = document.createElement("a");
+      a.className = "btn btnTextOnly";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = url || "#";
 
-							// Gestion de l'ajout de message
-							const messageForm = document.getElementById("messageForm");
-							messageForm.addEventListener("submit", async (event) => {
-								event.preventDefault();
+      const label = document.createElement("div");
+      label.className = "label";
+      label.textContent = labelText;
 
-								const formData = new FormData(messageForm);
-								await fetch(formResponseUrl, {
-									method: "POST",
-									body: formData,
-									mode: "no-cors"
-								});
+      a.appendChild(label);
 
-								setTimeout(fetchMessages, 2000);
-								messageForm.reset();
-								popupOverlay.style.display = "none";
-								popupForm.style.display = "none";
-							});
+      if (!url){
+        a.style.opacity = "0.55";
+        a.style.pointerEvents = "none";
+      }
+      return a;
+    }
 
-							fetchMessages();
-						</script>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-7">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:20px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-8">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">Rogers</span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">Fido</span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-9">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.rogers.com/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/3k0/veb/bic/rogers-site.png" style="max-width:80px;" /></a></div>
-					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
-						<h4><span class="tinyMce-placeholder">Site Web</span> </h4>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.rogers.com/mobility/add-ons?icid=R_WIR_CMH_5KCTX0" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/znt/qnm/2me/rogers-options.png" style="max-width:80px;" /></a></div>
-					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
-						<h4><span class="tinyMce-placeholder">Options</span> </h4>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.rogers.com/mobility/network-coverage-map?icid=R_WIR_NTW_HEUQFZ" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/dnc/gn9/hv6/rogers-carte.png" style="max-width:80px;" /></a></div>
-					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
-						<h4><span class="tinyMce-placeholder">Carte couverture</span> </h4>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-6 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-7 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.fido.ca/" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/32z/jrz/q36/fido-site.png" style="max-width:80px;" /></a></div>
-					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
-						<h4><span class="tinyMce-placeholder">Site Web</span> </h4>
-					</div>
-				</div>
-				<div class="bee-col bee-col-8 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.fido.ca/add-ons" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/jen/a2t/ff6/fido-options.png" style="max-width:80px;" /></a></div>
-					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
-						<h4><span class="tinyMce-placeholder">Options</span> </h4>
-					</div>
-				</div>
-				<div class="bee-col bee-col-9 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-image"><a href="https://www.fido.ca/mobility/network-coverage-map" target="_blank"><img alt="" class="bee-center bee-fixedwidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ywh/hjj/1mh/fido-carte.png" style="max-width:80px;" /></a></div>
-					<div style="margin-top: -20px;" class="bee-block bee-block-2 bee-heading">
-						<h4><span class="tinyMce-placeholder">Carte couverture</span> </h4>
-					</div>
-				</div>
-				<div class="bee-col bee-col-10 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-11 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-12 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-10">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:20px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-11">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">Rapports</span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">Liens rapides</span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-12">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/a1ad1258-a4f2-4980-a870-79f461976720?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">104. Rapport sur GamePlan</span></a></div>
-					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/3135f18a-7627-4dc0-9fc9-55ca3143db25?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">102. Rapport de ventes</span></a></div>
-					<div class="bee-block bee-block-3 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/3135f18a-7627-4dc0-9fc9-55ca3143db25?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">204. Rapport sur le BPO</span></a></div>
-					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/cfbbd086-01b0-4d2b-9436-af0d777a2085?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;pbi_source=linkShare" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">301. Rapport sur les stocks (appareils/accessoires)</span></a></div>
-					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="https://app.powerbi.com/groups/151313fc-dacd-4d01-afa5-ba6db0e646e6/reports/862dc2fd-df2b-4078-b0a5-8f732115feed?ctid=0ab4cbbf-4bc7-4826-b52c-a14fed5286b9&amp;experience=power-bi" style="font-size: 16px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 16px; line-height: 200%; letter-spacing: normal;">121. Heatmap</span></a></div>
-					<div class="bee-block bee-block-6 bee-paragraph">
-						<p><a href="https://theloop.rogers.com/fr/Reports.aspx" rel="noopener" style="text-decoration: underline;" target="_blank">Tous les rapports</a></p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w5">
-					<div class="bee-block bee-block-1 bee-paragraph">
-						<p><a href="http://www.rogersfasttrack.com/users/index.aspx" rel="noopener" style="text-decoration: underline;" target="_blank">Voie rapide</a></p>
-					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p><a href="https://www.purolator.com/" rel="noopener" style="text-decoration: underline;" target="_blank">Purolator</a></p>
-					</div>
-					<div class="bee-block bee-block-3 bee-paragraph">
-						<p><a href="https://www.brandedretail.rogers.com:8443/ords/pls/cl/TRIAGE_FORMS_ORDS_STORE.home_page" rel="noopener" style="text-decoration: underline;" target="_blank">Triage forms</a></p>
-					</div>
-					<div class="bee-block bee-block-4 bee-paragraph">
-						<p><a href="https://www.brandedretail.rogers.com:8443/ords/pls/cl/DIRECT_TOSTORE_ORPOS_ORDS.home_page" rel="noopener" style="text-decoration: underline;" target="_blank">Portail des stocks</a></p>
-					</div>
-					<div class="bee-block bee-block-5 bee-paragraph">
-						<p><a href="https://www.rogerszone.ca/en-ca" rel="noopener" style="text-decoration: underline;" target="_blank">Rogers Zone</a></p>
-					</div>
-					<div class="bee-block bee-block-6 bee-paragraph">
-						<p><a href="https://www.connexionrhrogers.com/" rel="noopener" style="text-decoration: underline;" target="_blank">HR Connect</a></p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-13">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:20px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-14">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w1">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder">Compétition</span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="center bee-separator" style="border-top:2px solid #a4a4a4;width:100%;"></div>
-					</div>
-					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/ges/pnf/tbr/videotron%20%281%29.png" style="max-width:315px;" /></div>
-					<div class="bee-block bee-block-4 bee-paragraph">
-						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fvideotron.com%2Fmobilite%2Ftelephones-mobiles&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3KLH3SSUmQp1CTq9WLjdRR" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fvideotron.com%2Fmobilite%2Fforfaits-cellulaire&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1gaao9lH0zkCttIgM9-UkF" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
-					</div>
-					<div class="bee-block bee-block-5 bee-divider">
-						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
-					</div>
-					<div class="bee-block bee-block-6 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/l2w/43g/mwt/fizz%20%281%29.png" style="max-width:315px;" /></div>
-					<div class="bee-block bee-block-7 bee-paragraph">
-						<p><a href="https://www.google.com/url?q=https%3A%2F%2Ffizz.ca%2Ffr%2Fplp%3Fprice__number%5Bmin%5D%3D0%26sort_by%3Dfield_displayorder_value&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0eeVm0jyzmWKODrNU7mDwg" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Ffizz.ca%2Ffr%2Fmobile%3FADDONS%5B0%5D%3D18%26CVRG%3D108%26DATA%3D661%26PLAN%3D2%26SMS%3D223%26VOICE%3D90%26WIZARD%3Dmobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0fyqkDgKBX6YqTZFycRAL0" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder"></span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="spacer" style="height:40px;"></div>
-					</div>
-					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/fe1/cx2/0rf/bell%20%281%29.png" style="max-width:315px;" /></div>
-					<div class="bee-block bee-block-4 bee-paragraph">
-						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.bell.ca%2FMobilite%2FTelephones_cellulaires_intelligent_et_Internet_mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw270ARgntUzsFD5BIrtpkRO" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.bell.ca%2FMobilite%2FForfaits%2FForfaits-illimites&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw0rFtl5qO4RkYbSbbp-jYCC" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
-					</div>
-					<div class="bee-block bee-block-5 bee-divider">
-						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
-					</div>
-					<div class="bee-block bee-block-6 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/2bm/7gw/tk8/virgin-plus%20%281%29.png" style="max-width:315px;" /></div>
-					<div class="bee-block bee-block-7 bee-paragraph">
-						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.virginplus.ca%2Ffr%2Fphones%2Fphones-summary.html%3Fprovince%3DON%26geoResult%3DON&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw15p26bh1d4kCGvlneZWLB1" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.virginplus.ca%2Ffr%2Fplans%2Fpostpaid.html%23!%2FBYOP%2Fresearch&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw065sidRq-cLQcFwiJ6K-7G" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-4 bee-col-w3">
-					<div class="bee-block bee-block-1 bee-heading">
-						<h1><span class="tinyMce-placeholder"></span> </h1>
-					</div>
-					<div class="bee-block bee-block-2 bee-divider">
-						<div class="spacer" style="height:40px;"></div>
-					</div>
-					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/qsv/8gn/7b5/telus%20%281%29.png" style="max-width:315px;" /></div>
-					<div class="bee-block bee-block-4 bee-paragraph">
-						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.telus.com%2Ffr%2Fmobility%2Fphones%3FsessionFlow%3Dconsumer%26linkname%3DT%25C3%25A9l%25C3%25A9phones%26linktype%3Dge-meganav&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2zL8b0mAZZfO0_VZp2yPhu" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.telus.com%2Ffr%2Fmobility%2Fplans%3Flinkname%3DForfaits%26linktype%3Dge-meganav&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3Oj4l34OS3kAQS7LHJ225D" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
-					</div>
-					<div class="bee-block bee-block-5 bee-divider">
-						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
-					</div>
-					<div class="bee-block bee-block-6 bee-image"><img alt="" class="bee-center bee-autowidth" src="https://47ea4be3ff.imgdist.com/pub/bfra/dt1p8w0t/fqr/3af/qbu/koodo%20%281%29.png" style="max-width:315px;" /></div>
-					<div class="bee-block bee-block-7 bee-paragraph">
-						<p><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.koodomobile.com%2Ffr%2Fphones%3FINTCMP%3DKMNew_NavMenu_Shop_Phones%23all_phones&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2tWlRqB_BJvk_e3u1TIJWp" rel="noopener" style="text-decoration: underline;" target="_blank">Appareils</a>     <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.koodomobile.com%2Ffr%2Frate-plans%3FINTCMP%3DKMNew_NavMenu_Shop_Plans&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw3canFqF7n4niUpZG56ueZK" rel="noopener" style="text-decoration: underline;" target="_blank">Forfaits</a></p>
-					</div>
-				</div>
-				<div class="bee-col bee-col-5 bee-col-w2">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-15">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-16">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:100px;"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    function createToolCard(item){
+      const a = document.createElement("a");
+      a.className = "toolCard";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = item.url || "#";
+
+      const media = document.createElement("div");
+      media.className = "toolCardMedia";
+
+      const img = document.createElement("img");
+      img.alt = "";
+      img.loading = "lazy";
+      img.src = item.icon || FALLBACK_ICON;
+      img.onerror = () => { img.src = FALLBACK_ICON; };
+      media.appendChild(img);
+
+      const title = document.createElement("div");
+      title.className = "toolCardTitle";
+      title.textContent = item.title || (UI_LANG === "fr" ? "(Sans titre)" : "(Untitled)");
+
+      a.appendChild(media);
+      a.appendChild(title);
+
+      if (!item.url){
+        a.classList.add("toolCardDisabled");
+      }
+      return a;
+    }
+
+    function createReportButton(item){
+      const a = document.createElement("a");
+      a.className = "btn btn-medium reportBtn";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = item.url || "#";
+
+      const badge = document.createElement("div");
+      badge.className = "badgeNum";
+      badge.textContent = item.badge || "—";
+
+      const label = document.createElement("div");
+      label.className = "label";
+      label.innerHTML = escapeHtml(item.title || (UI_LANG === "fr" ? "(Sans titre)" : "(Untitled)"));
+
+      a.appendChild(badge);
+      a.appendChild(label);
+
+      if (!item.url){
+        a.style.opacity = "0.55";
+        a.style.pointerEvents = "none";
+      }
+      return a;
+    }
+
+    function renderToolsAndLinks(data){
+      const outilsSrc = data?.sections?.outils || [];
+      const utilesSrc = data?.sections?.liensUtiles || [];
+      const rogersSrc = data?.sections?.liensRapides?.rogers || [];
+      const fidoSrc   = data?.sections?.liensRapides?.fido || [];
+
+      const outils = outilsSrc.map(normalizeButton).filter(x => x.title || x.url || x.icon);
+      const outilsGrid = document.getElementById("outilsGrid");
+      outilsGrid.innerHTML = "";
+      for (const it of outils) outilsGrid.appendChild(createToolCard(it));
+      document.getElementById("outilsEmpty").style.display = outils.length ? "none" : "block";
+
+      const utiles = utilesSrc.map(normalizeButton).filter(x => !!x.url);
+      const utilesGrid = document.getElementById("liensUtilesGrid");
+      utilesGrid.innerHTML = "";
+      for (const it of utiles) utilesGrid.appendChild(createButton(it, "btn-medium"));
+      document.getElementById("liensUtilesEmpty").style.display = utiles.length ? "none" : "block";
+
+      const rogers = rogersSrc.map(normalizeButton).filter(x => !!x.url);
+      const fido = fidoSrc.map(normalizeButton).filter(x => !!x.url);
+
+      const rogersQuick = document.getElementById("rogersQuick");
+      const fidoQuick = document.getElementById("fidoQuick");
+      rogersQuick.innerHTML = "";
+      fidoQuick.innerHTML = "";
+
+      for (const it of rogers) rogersQuick.appendChild(createButton(it, "btn-quick"));
+      for (const it of fido)   fidoQuick.appendChild(createButton(it, "btn-quick"));
+
+      document.getElementById("rogersEmpty").style.display = rogers.length ? "none" : "block";
+      document.getElementById("fidoEmpty").style.display = fido.length ? "none" : "block";
+    }
+
+    function renderCompetition(list){
+      const wrap = document.getElementById("competitionGrid");
+      const empty = document.getElementById("competitionEmpty");
+      wrap.innerHTML = "";
+
+      const normalized = (list || []).map(s => ({
+        title: pickLang(s.title, UI_LANG),
+        icon: s.icon || "",
+        planUrl:   pickLang(s.links?.plan, UI_LANG),
+        deviceUrl: pickLang(s.links?.device, UI_LANG),
+      })).filter(x => x.title || x.planUrl || x.deviceUrl);
+
+      if (!normalized.length){
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+
+      const n = normalized.length;
+      let cols = Math.min(4, n);
+      if (n > 4 && n % 2 === 0) cols = n / 2;
+      wrap.style.gridTemplateColumns = `repeat(${cols}, minmax(0, 1fr))`;
+
+      const labelPlan   = (UI_LANG === "fr") ? "Forfaits"  : "Plans";
+      const labelDevice = (UI_LANG === "fr") ? "Appareils" : "Devices";
+
+      for (const s of normalized){
+        const card = document.createElement("div");
+        card.className = "compCard";
+
+        const head = document.createElement("div");
+        head.className = "compHeader";
+
+        if (s.icon){
+          const img = document.createElement("img");
+          img.className = "compLogo";
+          img.alt = "";
+          img.loading = "lazy";
+          img.src = s.icon;
+          img.onerror = () => { img.style.display = "none"; };
+          head.appendChild(img);
+        }
+
+        const title = document.createElement("div");
+        title.className = "compTitle";
+        title.innerHTML = escapeHtml(s.title || "");
+        head.appendChild(title);
+
+        const btns = document.createElement("div");
+        btns.className = "compBtns";
+
+        btns.appendChild(createTextOnlyButton(labelPlan, s.planUrl));
+        btns.appendChild(createTextOnlyButton(labelDevice, s.deviceUrl));
+
+        card.appendChild(head);
+        card.appendChild(btns);
+        wrap.appendChild(card);
+      }
+    }
+
+    function renderReports(list){
+      const grid = document.getElementById("reportsGrid");
+      const empty = document.getElementById("reportsEmpty");
+      grid.innerHTML = "";
+
+      const normalized = (list || []).map(r => ({
+        badge: String(r.badge ?? "").trim(),
+        title: pickLang(r.title, UI_LANG),
+        url:   pickLang(r.url, UI_LANG),
+      })).filter(x => !!x.url);
+
+      if (!normalized.length){
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+
+      for (const it of normalized) grid.appendChild(createReportButton(it));
+    }
+
+    function setupStoreLookup(){
+      const input = document.getElementById("storeInput");
+      const err = document.getElementById("storeError");
+      const modal = document.getElementById("storeModal");
+      const close = document.getElementById("storeModalClose");
+
+      const clearError = () => {
+        input.classList.remove("error");
+        err.style.display = "none";
+      };
+
+      const showError = (msg) => {
+        input.classList.add("error");
+        err.textContent = msg || (UI_LANG === "fr" ? "Aucun résultat" : "No results");
+        err.style.display = "block";
+      };
+
+      const openModal = () => { modal.style.display = "flex"; };
+      const closeModal = () => { modal.style.display = "none"; };
+
+      close.addEventListener("click", closeModal);
+      modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+
+      function runLookup(){
+        if (!APP_DATA){
+          showError(UI_LANG === "fr" ? "Données non chargées" : "Data not loaded");
+          return;
+        }
+
+        const raw = String(input.value || "").trim();
+        clearError();
+
+        if (!/^\d{1,5}$/.test(raw)){
+          if (raw.length) showError(UI_LANG === "fr" ? "Entrez 1 à 5 chiffres" : "Enter 1–5 digits");
+          return;
+        }
+
+        const map = APP_DATA?.sections?.boutique || {};
+        const items = map[raw];
+
+        if (!items || !items.length){
+          showError(UI_LANG === "fr" ? "Aucun résultat" : "No results");
+          return;
+        }
+
+        const normalized = items.map(b => ({
+          title: pickLang(b.title, UI_LANG),
+          url:   pickLang(b.url, UI_LANG),
+          icon: b.icon || ""
+        })).filter(x => !!x.url);
+
+        if (!normalized.length){
+          showError(UI_LANG === "fr" ? "Aucun lien dans cette langue" : "No links in this language");
+          return;
+        }
+
+        document.getElementById("storeModalTitle").textContent =
+          (UI_LANG === "fr" ? "Boutique " : "Store ") + raw;
+
+        const grid = document.getElementById("storeModalButtons");
+        const empty = document.getElementById("storeModalEmpty");
+
+        // ✅ Force 3-column layout + centering behavior
+        grid.classList.remove("cols-1","cols-2","cols-3");
+        grid.classList.add("cols-" + Math.min(3, normalized.length));
+
+        grid.innerHTML = "";
+
+        // ✅ On place les boutons en "btn-large", chacun occupe une colonne;
+        // si 1 ou 2, la grille reste de 3 colonnes et se centre grâce à max-width + margin:auto
+        for (const it of normalized.slice(0, 3)){
+          grid.appendChild(createButton(it, "btn-large"));
+        }
+
+        empty.style.display = normalized.length ? "none" : "block";
+        openModal();
+      }
+
+      input.addEventListener("input", () => {
+        input.value = input.value.replace(/[^\d]/g, "").slice(0, 5);
+        clearError();
+      });
+
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") runLookup();
+      });
+    }
+
+    function render(data){
+      APP_DATA = data;
+
+      const meta = document.getElementById("meta");
+      const locale = (UI_LANG === "fr") ? "fr-CA" : "en-CA";
+      meta.textContent = data?.updatedAt
+        ? ((UI_LANG === "fr" ? "Dernière mise à jour: " : "Last updated: ") + new Date(data.updatedAt).toLocaleString(locale))
+        : (UI_LANG === "fr" ? "Données chargées" : "Data loaded");
+
+      renderToolsAndLinks(data);
+      renderCompetition(data?.sections?.concurrence || []);
+      renderReports(data?.sections?.rapports || []);
+    }
+
+    async function load(){
+      try{
+        const res = await fetch(WEBAPP_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const data = await res.json();
+        render(data);
+        return;
+      } catch (err){
+        const cbName = "repaccess_cb_" + Math.random().toString(16).slice(2);
+        window[cbName] = (data) => {
+          try { render(data); } finally { delete window[cbName]; }
+        };
+
+        const script = document.createElement("script");
+        const sep = WEBAPP_URL.includes("?") ? "&" : "?";
+        script.src = WEBAPP_URL + sep + "callback=" + cbName + "&_=" + Date.now();
+        script.onerror = () => {
+          document.getElementById("meta").textContent =
+            (UI_LANG === "fr")
+              ? "⚠ Impossible de charger les données. Vérifie l’accès public de l’Apps Script."
+              : "⚠ Could not load data. Check the Apps Script public access.";
+        };
+        document.head.appendChild(script);
+      }
+    }
+
+    setupStoreLookup();
+    load();
+  </script>
 </body>
-
 </html>
