@@ -1,0 +1,1263 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
+  <title>RepAccess</title>
+
+  <style>
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Semibold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-SemiBoldItalic.woff') format('woff');
+      font-weight: bold;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Bold.woff') format('woff');
+      font-weight: bolder;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-BoldItalic.woff') format('woff');
+      font-weight: bolder;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Light.woff') format('woff');
+      font-weight: lighter;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-LightItalic.woff') format('woff');
+      font-weight: lighter;
+      font-style: italic;
+    }
+    
+    @font-face {
+      font-family: 'Ted Next Condensed';
+      src: url('https://raw.githubusercontent.com/rogersrepaccess/repaccess-fr/main/fonts/TedNext-Condensed.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    :root{
+      --bg: #0b1220;
+      --card: rgba(255,255,255,0.06);
+      --card2: rgba(255,255,255,0.08);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.68);
+      --stroke: rgba(255,255,255,0.12);
+      --radius: 18px;
+      --footer: rgba(255,255,255,0.0);
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      margin:0;
+      font-family: Ted Next;
+      background:
+        radial-gradient(1200px 600px at 20% 0%, rgba(64,120,255,0.18), transparent 55%),
+        radial-gradient(900px 500px at 100% 30%, rgba(255,70,170,0.14), transparent 55%),
+        var(--bg);
+      color: var(--text);
+      min-height: 1200px;
+    }
+
+    .wrap{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+      height: 100%;
+    }
+
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      margin-bottom:18px;
+      border: 0px solid silver;
+    }
+    
+    .headerLogoImage{
+      width: 150px;
+    }
+
+    .brand{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+      border: 0px solid pink;
+      width: 70%;
+    }
+    
+    
+
+    
+
+    .hint{
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .meta{
+      display: none;
+      font-size: 13px;
+      color: var(--muted);
+      text-align:right;
+      line-height:1.35;
+    }
+
+    /* --- Section cards --- */
+    .section{
+      background: linear-gradient(180deg, var(--card), transparent 140%);
+      border: 1px solid var(--stroke);
+      border-radius: var(--radius);
+      padding: 18px;
+      margin-top: 16px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+      backdrop-filter: blur(10px);
+    }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 12px;
+      margin: 0 0 14px 0;
+    }
+
+    .section-title h2{
+      margin:0;
+      font-size: 18px;
+      letter-spacing:0.2px;
+    }
+
+    .empty{
+      color: var(--muted);
+      font-size: 13px;
+      padding: 10px 2px 2px;
+    }
+
+    /* --- Grids --- */
+    .grid6{
+      display:grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 12px;
+    }
+    @media (max-width: 1100px){
+      .grid6{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+    @media (max-width: 650px){
+      .grid6{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    /* --- Default Buttons (sections 2/3/5 + modal) --- */
+    .btn{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      width:100%;
+      text-decoration:none;
+      color: var(--text);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 16px;
+      transition: transform .12s ease, background .12s ease, border-color .12s ease;
+      user-select:none;
+    }
+    .btn:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,0.085);
+      border-color: rgba(255,255,255,0.20);
+    }
+    .btn:active{ transform: translateY(0px) scale(0.99); }
+
+    .btn .icon{
+      width: 44px;
+      height: 44px;
+      flex: 0 0 44px;
+      border-radius: 0px;
+      background: none;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+    }
+    .btn .icon img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .btn .label{
+      font-weight: 650;
+      letter-spacing:0.1px;
+      line-height:1.15;
+      font-size: 14px;
+    }
+
+    .btn-large{ padding: 16px 14px; min-height: 78px; }
+    .btn-large .icon{ width: 52px; height:52px; flex-basis:52px; border-radius: 0px; }
+    .btn-large .label{ font-size: 15px; }
+
+    .btn-medium{ padding: 12px 12px; min-height: 64px; }
+
+    .btn-quick{ padding: 10px 12px; min-height: 56px; }
+    .btn-quick .icon{ height:40px; width: 40px; border-radius: 0px; border: 0px solid red; padding: 5px;}
+    .btn-quick .icon img{ height:35px; width: 35px;}
+    .btn-quick .label{ font-size: 13.5px; }
+
+    /* --- NEW: Section 1 "Outils" buttons (image + bottom title bar) --- */
+    .toolCard{
+      display:flex;
+      flex-direction:column;
+      width:100%;
+      text-decoration:none;
+      border-radius: 20px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.06);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.22);
+      transition: transform .12s ease, border-color .12s ease, background .12s ease;
+      user-select:none;
+      height: 150px;
+    }
+    .toolCard:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,0.22);
+      background: rgba(255,255,255,0.075);
+      opacity: 0.85;
+    }
+    .toolCard:active{ transform: translateY(0px) scale(0.99); }
+
+    .toolCardMedia{
+  /* prend tout l’espace restant dans la carte */
+  flex: 1 1 auto;
+
+  /* hauteur constante de l'image (reste constant puisque le titre est fixe) */
+  min-height: 90px;            /* ajuste au besoin */
+  background: rgba(80,220,230,0.20);
+  position: relative;
+}
+    .toolCardMedia img{
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      object-fit: cover;
+    }
+
+    .toolCardTitle{
+  /* hauteur constante du bandeau de titre */
+  height: 86px;                 /* ajuste si tu veux plus/moins haut */
+  padding: 10px 18px 20px;
+  background: #f0f0f0;
+  color: #0b0b0b;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.05;
+  letter-spacing: 0.2px;
+
+  /* forcer le texte à max 2 lignes, sans changer la hauteur */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;        /* max 2 lignes */
+  overflow: hidden;
+}
+
+    .toolCardDisabled{
+      opacity: 0.55;
+      pointer-events:none;
+    }
+
+    /* --- Section 3: two columns --- */
+    .twoCols{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    @media (max-width: 900px){
+      .twoCols{ grid-template-columns: 1fr; }
+    }
+    .subsection{
+      background: linear-gradient(180deg, var(--card2), transparent 160%);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    
+    #quickRogersTitle{
+      margin-bottom: 10px;
+    }
+    
+    #quickFidoTitle{
+      margin-bottom: 10px;
+    }
+    
+    .subsection-rogers{
+      background: linear-gradient(360deg,rgba(255, 255, 255, 0) 0%, rgba(218, 41, 28, 0.18) 100%);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    
+    .subsection-fido{
+      background: linear-gradient(360deg,rgba(255, 255, 255, 0) 0%, rgba(0, 175, 171, 0.18) 100%);
+      border: 1px solid var(--stroke);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    
+    .subsection h3{
+      margin: 0 0 10px 0;
+      font-size: 15px;
+      letter-spacing:0.15px;
+    }
+    .stack{
+      display:grid;
+      gap: 10px;
+    }
+    
+    .rfIcon{
+      width: 25px;
+    }
+
+    /* --- Section 0: Store lookup (header) --- */
+    .storeLookup{
+      display:flex;
+      flex-direction:column;
+      align-items:flex-end;
+      gap:6px;
+      min-width: 160px;
+      border: 0px solid lime;
+    }
+    .storeRow{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .storeLabel{
+      font-size: 12.5px;
+      color: var(--muted);
+      white-space:nowrap;
+    }
+    .storeLabelIcon{
+      width: 60px;
+      margin-right: -5px;
+    }
+    .storeInput{
+      width: 100px;
+      height: 35px;
+      padding-left: 10px;
+      font-size: 20px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+      color: rgba(255,255,255,0.92);
+      outline: none;
+      font-family: Ted Next;
+    }
+    .storeInput::placeholder{ color: rgba(255,255,255,0.35); }
+    .storeInput.error{
+      border-color: rgba(255,80,80,0.90);
+      box-shadow: 0 0 0 3px rgba(255,80,80,0.25);
+    }
+    .storeError{
+      font-size:12px;
+      color: rgba(255,130,130,0.95);
+    }
+
+    /* --- Modal --- */
+    .modalBackdrop{
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.55);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding: 18px;
+      z-index: 9999;
+    }
+    .modalCard{
+      width: min(920px, 100%);
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(15,22,38,0.92);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 30px 80px rgba(0,0,0,0.45);
+    }
+    .modalHeader{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+    .modalTitle{
+      font-weight: 800;
+      letter-spacing:0.2px;
+    }
+    .modalClose{
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+      color: rgba(255,255,255,0.9);
+      border-radius: 12px;
+      padding: 6px 10px;
+      cursor:pointer;
+    }
+    .modalBody{ padding: 14px; }
+
+    /* ✅ NEW: Store modal grid (3-wide, centered if <3) */
+    .storeModalGrid{
+      display:grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      justify-content:center;   /* centre la grille si elle ne remplit pas */
+      align-content:start;
+      justify-items:stretch;    /* chaque bouton prend la largeur de sa colonne */
+    }
+    /* Largeur "constante" des colonnes, même si 1 ou 2 boutons */
+    .storeModalGrid.cols-1,
+    .storeModalGrid.cols-2,
+    .storeModalGrid.cols-3{
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    /* On limite la largeur totale du groupe à 3 colonnes + gaps, puis on centre */
+    .storeModalGrid{
+      max-width: 840px;
+      margin: 0 auto;           /* centre horizontalement */
+    }
+
+    @media (max-width: 900px){
+      .storeModalGrid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: 620px;
+      }
+      .storeModalGrid.cols-1,
+      .storeModalGrid.cols-2,
+      .storeModalGrid.cols-3{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 520px){
+      .storeModalGrid{
+        grid-template-columns: 1fr;
+        max-width: 360px;
+      }
+      .storeModalGrid.cols-1,
+      .storeModalGrid.cols-2,
+      .storeModalGrid.cols-3{
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* --- Section 4: Competition --- */
+    .competitionGrid{
+      display:grid;
+      gap: 12px;
+    }
+    .compCard{
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .compHeader{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin-bottom: 10px;
+    }
+
+    .compLogo{
+      height: 28px;
+      width: auto;
+      max-width: 130px;
+      object-fit: contain;
+      display:block;
+      filter: drop-shadow(0 10px 16px rgba(0,0,0,0.25));
+    }
+
+    .compTitle{
+      display:none;
+      font-weight: 800;
+      font-size: 14px;
+      letter-spacing:0.15px;
+      line-height:1.1;
+    }
+    .compBtns{
+      display:grid;
+      gap:10px;
+    }
+
+    .btnTextOnly{
+      padding: 10px 12px;
+      min-height: 40px;
+      justify-content:center;
+      text-align:center;
+    }
+    .btnTextOnly .label{
+      font-size: 13.5px;
+      font-weight: 750;
+    }
+
+    /* --- Section 5: Reports --- */
+    .badgeNum{
+      width: 44px;
+      height: 44px;
+      flex:0 0 44px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.14);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight: 900;
+      letter-spacing:0.3px;
+    }
+    
+    /* --- Section 5: style des boutons "Rapports" --- */
+    .reportBtn{
+      border-radius: 18px;                 /* coins */
+      background: #4e148c;  /* fond */
+      border: 1px solid rgba(255,255,255,0.18);
+      min-height: 60px;                    /* hauteur */
+    }
+
+    .reportBtn:hover{
+      background: #2a084f;
+      border-color: rgba(255,255,255,0.26);
+    }
+    
+    .languageBtn{
+      background-color: none;
+      color: white;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 0px solid cyan;
+    }
+    
+    #languageBtnElement{
+      background-color: #f0f0f0;
+      color: #0b1220;
+      width: 100px;
+      height: 35px;
+      border-radius: 10px;
+      line-height: 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 0px solid cyan;
+      font-weight: bold;
+      transition-duration: 150ms;
+    }
+    
+    #languageBtnElement:hover{
+      opacity: 0.85;
+    }
+    
+    .footer{
+      background: none;
+      border-top: 1px solid #ffffff1f;
+      border-radius: 0px;
+      padding-top: 18px;
+      margin-top: 40px; 
+    }
+    
+    .footerDiv{
+      display: flex;
+      flex-direction: row;
+      color: white;
+    }
+    
+    .footerRow2{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      color: white;
+      font-style: italic;
+      margin-top: 25px;
+      opacity: 0.65;
+      text-align: center;
+      justify-content: center;
+    }
+    
+    .footerLink1{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+    }
+    
+    .footerLink{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      text-align: center;
+    }
+    
+    .editBtn{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      text-align: right;
+    }
+    
+    #editBtnElement{
+      background-color: #f0f0f0;
+      color: #0b1220;
+      width: 100px;
+      height: 35px;
+      border-radius: 10px;
+      line-height: 35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: 0px solid cyan;
+      font-weight: bold;
+      transition-duration: 150ms;
+      margin-left: 130px;
+    }
+    
+    #editBtnElement:hover{
+      opacity: 0.85;
+    }
+    
+    .iconoir-edit-pencil{
+
+      padding-top: 7px;
+    }
+    
+    .pageContent{
+      height: 100%;
+      margin-top: 50px;
+    }
+    
+    h1{
+      font-size: 28px;
+      margin:0;
+      letter-spacing:0.2px;
+      font-weight: bold;
+    }
+    
+    .h-line{
+      border-bottom: 1px solid white;
+      opacity: 0.5;
+      margin-top: 10px;
+    }
+    
+    .bulletList{
+      padding-left: 20px;
+    }
+    
+    .numberedList{
+      padding-left: 20px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <h1></h1>
+        <div class="headerLogo">
+          <a href="https://rogersrepaccess.github.io/repaccess-fr/">
+          <img class="headerLogoImage" src="https://github.com/rogersrepaccess/repaccess-fr/blob/main/images/logo_repaccess_v1_blanc.png?raw=true"></img>
+          </a>
+        </div>
+      </div>
+
+      <!-- Section 0 (header): boutique lookup -->
+      <div class="storeLookup">
+        <div class="storeRow">
+          <div class="storeLabel" id="storeLabel">
+              <img class="storeLabelIcon" id="storeLabelIcon" src="https://github.com/rogersrepaccess/repaccess-fr/blob/main/images/icons/numero-boutique_white.png?raw=true"></img>
+          </div>
+          <input
+            id="storeInput"
+            class="storeInput"
+            inputmode="numeric"
+            maxlength="5"
+            placeholder="#"
+            aria-label="Numéro de boutique"
+          />
+        </div>
+        <div id="storeError" class="storeError" style="display:none;">Aucun résultat</div>
+        <div class="meta" id="meta">Chargement…</div>
+      </div>
+  
+  <div class="languageBtn" id="languageBtn">
+    <a id="languageBtnElement" href="https://rogersrepaccess.github.io/repaccess-en/pc-en" target="_blank">English</a>
+  </div>
+    </header>
+  
+    <!-- Page -->
+    <section class="pageContent" aria-label="pageContent">
+
+      <div class="pageContentDiv" id="pageContentDiv">
+        
+        <h1>Politique de confidentialité</h1>
+        
+        <div class="h-line"></div>
+
+        <p>La présente Politique de confidentialité (la « Politique ») décrit comment le site web et/ou programme (le « Programme ») traite les renseignements et informations liés à votre utilisation. En accédant au Programme, vous reconnaissez avoir pris connaissance de cette Politique.</p>
+
+        <h2>1. Portée et objectif</h2>
+        <p>Le Programme est accessible publiquement sur Internet, mais il est conçu principalement pour un usage interne par des employés ou représentants de vente de l’entreprise à laquelle il est destiné. Cette Politique vise à expliquer, de façon transparente, quelles informations sont (ou ne sont pas) collectées et comment la confidentialité est protégée.</p>
+
+        <h2>2. Aucune collecte volontaire de renseignements personnels</h2>
+        <p>Le Programme ne collecte pas et ne stocke pas volontairement de renseignements personnels. Il ne requiert pas la création de compte, n’offre pas de formulaire de saisie destiné à recueillir des informations sur les utilisateurs et ne conserve pas d’historique d’utilisation.</p>
+
+        <div class="bulletList">
+          <p>• Aucun compte utilisateur n’est créé.</p>
+          <p>• Aucune base de données d’utilisateurs n’est maintenue.</p>
+          <p>• Aucun profil, préférence ou historique n’est enregistré par le Programme.</p>
+        </div>
+
+        <h2>3. Informations techniques traitées automatiquement</h2>
+        <p>Comme pour tout service web, certaines informations techniques peuvent être traitées automatiquement par l’infrastructure d’hébergement, les services intermédiaires (p. ex. CDN) et/ou votre navigateur, notamment afin de livrer le contenu et assurer un fonctionnement minimal du site.</p>
+
+        <p>Ces informations peuvent inclure, selon l’environnement technique :</p>
+
+        <div class="bulletList">
+          <p>• l’adresse IP (souvent dans des journaux techniques standards);</p>
+          <p>• le type d’appareil, navigateur, système d’exploitation;</p>
+          <p>• la date et l’heure des requêtes;</p>
+          <p>• des informations de diagnostic (erreurs, performance, chargement);</p>
+          <p>• les pages ou ressources consultées (au niveau des requêtes réseau).</p>
+        </div>
+
+        <p>Le Programme ne vise pas à identifier les utilisateurs à partir de ces informations et n’utilise pas ces données pour établir des profils individuels.</p>
+
+        <h2>4. Témoins (cookies) et technologies similaires</h2>
+        <p>Le Programme n’utilise pas intentionnellement de témoins (cookies) à des fins de suivi publicitaire ou de profilage. Toutefois, des témoins techniques peuvent être déposés par des services tiers intégrés ou des sites externes lorsque vous cliquez sur des liens (p. ex. authentification, sécurité, préférences propres au site tiers).</p>
+
+        <p>Vous pouvez gérer les témoins via les paramètres de votre navigateur. Le blocage de certains témoins peut affecter le fonctionnement de sites externes auxquels le Programme renvoie.</p>
+
+        <h2>5. Liens vers des sites et outils tiers</h2>
+        <p>Le Programme contient des liens vers des sites web, applications ou outils tiers (incluant des ressources internes officielles accessibles via authentification). Lorsque vous cliquez sur un lien, vous quittez le Programme et vous êtes soumis aux politiques de confidentialité et conditions d’utilisation du site tiers.</p>
+
+        <p>Le responsable du Programme n’exerce aucun contrôle sur ces sites et n’est pas responsable de leurs pratiques de confidentialité, de leur contenu, ni de leur sécurité.</p>
+
+        <h2>6. Sécurité</h2>
+        <p>Le responsable du Programme applique des mesures raisonnables pour maintenir le Programme fonctionnel et réduire les risques de sécurité (p. ex. bonnes pratiques de développement, limitation des fonctionnalités de saisie, hébergement standard).</p>
+        <p>Cependant, aucun système informatique n’est totalement à l’abri des risques. Vous êtes responsable d’utiliser un appareil sécurisé, d’éviter de partager des informations sensibles via le Programme et de respecter les règles de sécurité applicables dans votre environnement de travail.</p>
+
+        <h2>7. Confidentialité et informations sensibles (obligations de l’utilisateur)</h2>
+        <p>Vous êtes responsable de respecter la confidentialité des informations auxquelles vous avez accès dans le cadre de votre travail. Vous vous engagez notamment à ne pas :</p>
+
+        <div class="bulletList">
+          <p>• saisir, copier, transmettre ou publier des renseignements personnels, confidentiels ou sensibles via le Programme;</p>
+          <p>• partager des informations internes (p. ex. procédures, prix, offres, documents, accès) à des personnes non autorisées;</p>
+          <p>• utiliser le Programme d’une manière pouvant entraîner une fuite de données ou une atteinte à la vie privée.</p>
+        </div>
+
+        <h2>8. Enfants et mineurs</h2>
+        <p>Le Programme n’est pas destiné aux mineurs et ne vise pas à recueillir des renseignements concernant des enfants. Si vous croyez qu’un mineur a transmis des renseignements personnels via un canal lié au Programme, veuillez en aviser le responsable du Programme afin d’évaluer les mesures appropriées.</p>
+
+        <h2>9. Conservation des données</h2>
+        <p>Puisque le Programme ne collecte ni ne stocke volontairement de renseignements personnels, il n’existe pas de politique de conservation spécifique des données utilisateurs au niveau du Programme.</p>
+        <p>Des journaux techniques peuvent exister au niveau de l’hébergement ou des services tiers utilisés pour livrer le site. Leur durée de conservation est déterminée par ces fournisseurs et leurs pratiques opérationnelles.</p>
+
+        <h2>10. Vos droits</h2>
+        <p>Selon les lois applicables (notamment au Québec et au Canada), vous pouvez avoir des droits concernant vos renseignements personnels (accès, rectification, retrait du consentement, etc.).</p>
+        <p>Étant donné que le Programme ne maintient pas de dossier utilisateur ni de base de données personnelle, il est possible que le responsable du Programme ne puisse pas identifier ni extraire des renseignements personnels vous concernant, sauf dans la mesure où des informations techniques seraient disponibles via l’hébergement (le cas échéant).</p>
+
+        <h2>11. Changements à la Politique</h2>
+        <p>La présente Politique peut être modifiée à tout moment. Toute modification entre en vigueur dès sa publication sur cette page. Il vous incombe de consulter cette page périodiquement.</p>
+
+        <h2>12. Contact</h2>
+        <p>Pour toute question concernant cette Politique, vous pouvez contacter le responsable du Programme via les coordonnées communiquées à l’interne.</p>
+
+        <p><em>Dernière mise à jour : 11 janvier 2026 13: 58:12</em></p>
+
+        
+        
+      </div>
+      
+    </section>
+
+    <!-- Footer -->
+    <section class="footer" aria-label="footer">
+
+      <div class="footerDiv" id="footerDiv">
+        
+        <a class="footerLink1" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/tcu-fr" target="_blank" style="color:white; opacity: 0.85;">
+          Termes et conditions d'utilisation
+        </a>
+        
+        <a class="footerLink" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/pc-fr" target="_blank" style="color:white; opacity: 0.85;">
+          Politique de confidentialité
+        </a>
+        
+        <a class="footerLink" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/a-propos" target="_blank" style="color:white; opacity: 0.85;">
+          À propos
+        </a>
+        
+        <a class="footerLink" id="footerLink" href="https://rogersrepaccess.github.io/repaccess-fr/signaler-un-bogue" target="_blank" style="color:white; opacity: 0.85;">
+          Signaler un bogue
+        </a>
+        
+        <div class="editBtn" id="editBtn">
+          <a id="editBtnElement" href="https://docs.google.com/spreadsheets/d/1dvbS1s5sX8uPUB6b20ZTMf5eNOzjCXnf5U0jLL-GDbo/edit?usp=sharing" target="_blank"><i class="iconoir-edit-pencil"></i>
+Modifier</a>
+        </div>
+        
+      </div>
+      
+      <div class="footerDiv" id="footerDiv">
+        
+        <div class="footerRow2">
+        
+          Timothée Vallée 2026 ©
+        
+        </div>
+        
+      </div>
+      
+    </section>
+
+  </div>
+
+  <!-- Modal: Boutique links -->
+  <div id="storeModal" class="modalBackdrop" style="display:none;">
+    <div class="modalCard" role="dialog" aria-modal="true" aria-labelledby="storeModalTitle">
+      <div class="modalHeader">
+        <div class="modalTitle" id="storeModalTitle">Boutique</div>
+        <button class="modalClose" id="storeModalClose" aria-label="Fermer">✕</button>
+      </div>
+      <div class="modalBody">
+        <!-- ✅ changed id/class so we control sizing/centering -->
+        <div id="storeModalButtons" class="storeModalGrid cols-3"></div>
+        <div class="empty" id="storeModalEmpty" style="display:none;">Aucun lien à afficher.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbziLqBHO0OKnELiYMYG3SEoSRAKuEV4HnWb2amTdYh7adZPi3zodqhYTz_UD3ZmltBxEQ/exec";
+    const UI_LANG = "fr";
+    const FALLBACK_TO_FR = true;
+
+    const FALLBACK_ICON = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(`
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+        <rect width="64" height="64" rx="14" fill="rgba(255,255,255,0.14)"/>
+        <path d="M18 34l10-10 8 8 10-10" stroke="rgba(255,255,255,0.75)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    `);
+
+    let APP_DATA = null;
+
+    function escapeHtml(s){
+      return String(s ?? "")
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    function pickLang(obj, lang){
+      if (!obj || typeof obj !== "object") return "";
+      const v = String(obj[lang] ?? "").trim();
+      if (v) return v;
+      if (FALLBACK_TO_FR && lang !== "fr") return String(obj["fr"] ?? "").trim();
+      return "";
+    }
+
+    function normalizeButton(item){
+      return {
+        title: pickLang(item.title, UI_LANG),
+        url:   pickLang(item.url, UI_LANG),
+        icon: item.icon || ""
+      };
+    }
+
+    function createButton(item, sizeClass){
+      const a = document.createElement("a");
+      a.className = `btn ${sizeClass}`;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = item.url || "#";
+
+      const icon = document.createElement("div");
+      icon.className = "icon";
+      const img = document.createElement("img");
+      img.alt = "";
+      img.loading = "lazy";
+      img.src = item.icon || FALLBACK_ICON;
+      img.onerror = () => { img.src = FALLBACK_ICON; };
+      icon.appendChild(img);
+
+      const label = document.createElement("div");
+      label.className = "label";
+      label.innerHTML = escapeHtml(item.title || (UI_LANG === "fr" ? "(Sans titre)" : "(Untitled)"));
+
+      a.appendChild(icon);
+      a.appendChild(label);
+
+      if (!item.url){
+        a.style.opacity = "0.55";
+        a.style.pointerEvents = "none";
+      }
+      return a;
+    }
+
+    function createTextOnlyButton(labelText, url){
+      const a = document.createElement("a");
+      a.className = "btn btnTextOnly";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = url || "#";
+
+      const label = document.createElement("div");
+      label.className = "label";
+      label.textContent = labelText;
+
+      a.appendChild(label);
+
+      if (!url){
+        a.style.opacity = "0.55";
+        a.style.pointerEvents = "none";
+      }
+      return a;
+    }
+
+    function createToolCard(item){
+      const a = document.createElement("a");
+      a.className = "toolCard";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = item.url || "#";
+
+      const media = document.createElement("div");
+      media.className = "toolCardMedia";
+
+      const img = document.createElement("img");
+      img.alt = "";
+      img.loading = "lazy";
+      img.src = item.icon || FALLBACK_ICON;
+      img.onerror = () => { img.src = FALLBACK_ICON; };
+      media.appendChild(img);
+
+      const title = document.createElement("div");
+      title.className = "toolCardTitle";
+      title.textContent = item.title || (UI_LANG === "fr" ? "(Sans titre)" : "(Untitled)");
+
+      a.appendChild(media);
+      a.appendChild(title);
+
+      if (!item.url){
+        a.classList.add("toolCardDisabled");
+      }
+      return a;
+    }
+
+    function createReportButton(item){
+      const a = document.createElement("a");
+      a.className = "btn btn-medium reportBtn";
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.href = item.url || "#";
+
+      const badge = document.createElement("div");
+      badge.className = "badgeNum";
+      badge.textContent = item.badge || "—";
+
+      const label = document.createElement("div");
+      label.className = "label";
+      label.innerHTML = escapeHtml(item.title || (UI_LANG === "fr" ? "(Sans titre)" : "(Untitled)"));
+
+      a.appendChild(badge);
+      a.appendChild(label);
+
+      if (!item.url){
+        a.style.opacity = "0.55";
+        a.style.pointerEvents = "none";
+      }
+      return a;
+    }
+
+    function renderToolsAndLinks(data){
+      const outilsSrc = data?.sections?.outils || [];
+      const utilesSrc = data?.sections?.liensUtiles || [];
+      const rogersSrc = data?.sections?.liensRapides?.rogers || [];
+      const fidoSrc   = data?.sections?.liensRapides?.fido || [];
+
+      const outils = outilsSrc.map(normalizeButton).filter(x => x.title || x.url || x.icon);
+      const outilsGrid = document.getElementById("outilsGrid");
+      outilsGrid.innerHTML = "";
+      for (const it of outils) outilsGrid.appendChild(createToolCard(it));
+      document.getElementById("outilsEmpty").style.display = outils.length ? "none" : "block";
+
+      const utiles = utilesSrc.map(normalizeButton).filter(x => !!x.url);
+      const utilesGrid = document.getElementById("liensUtilesGrid");
+      utilesGrid.innerHTML = "";
+      for (const it of utiles) utilesGrid.appendChild(createButton(it, "btn-medium"));
+      document.getElementById("liensUtilesEmpty").style.display = utiles.length ? "none" : "block";
+
+      const rogers = rogersSrc.map(normalizeButton).filter(x => !!x.url);
+      const fido = fidoSrc.map(normalizeButton).filter(x => !!x.url);
+
+      const rogersQuick = document.getElementById("rogersQuick");
+      const fidoQuick = document.getElementById("fidoQuick");
+      rogersQuick.innerHTML = "";
+      fidoQuick.innerHTML = "";
+
+      for (const it of rogers) rogersQuick.appendChild(createButton(it, "btn-quick"));
+      for (const it of fido)   fidoQuick.appendChild(createButton(it, "btn-quick"));
+
+      document.getElementById("rogersEmpty").style.display = rogers.length ? "none" : "block";
+      document.getElementById("fidoEmpty").style.display = fido.length ? "none" : "block";
+    }
+
+    function renderCompetition(list){
+      const wrap = document.getElementById("competitionGrid");
+      const empty = document.getElementById("competitionEmpty");
+      wrap.innerHTML = "";
+
+      const normalized = (list || []).map(s => ({
+        title: pickLang(s.title, UI_LANG),
+        icon: s.icon || "",
+        planUrl:   pickLang(s.links?.plan, UI_LANG),
+        deviceUrl: pickLang(s.links?.device, UI_LANG),
+      })).filter(x => x.title || x.planUrl || x.deviceUrl);
+
+      if (!normalized.length){
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+
+      const n = normalized.length;
+      let cols = Math.min(4, n);
+      if (n > 4 && n % 2 === 0) cols = n / 2;
+      wrap.style.gridTemplateColumns = `repeat(${cols}, minmax(0, 1fr))`;
+
+      const labelPlan   = (UI_LANG === "fr") ? "Forfaits"  : "Plans";
+      const labelDevice = (UI_LANG === "fr") ? "Appareils" : "Devices";
+
+      for (const s of normalized){
+        const card = document.createElement("div");
+        card.className = "compCard";
+
+        const head = document.createElement("div");
+        head.className = "compHeader";
+
+        if (s.icon){
+          const img = document.createElement("img");
+          img.className = "compLogo";
+          img.alt = "";
+          img.loading = "lazy";
+          img.src = s.icon;
+          img.onerror = () => { img.style.display = "none"; };
+          head.appendChild(img);
+        }
+
+        const title = document.createElement("div");
+        title.className = "compTitle";
+        title.innerHTML = escapeHtml(s.title || "");
+        head.appendChild(title);
+
+        const btns = document.createElement("div");
+        btns.className = "compBtns";
+
+        btns.appendChild(createTextOnlyButton(labelPlan, s.planUrl));
+        btns.appendChild(createTextOnlyButton(labelDevice, s.deviceUrl));
+
+        card.appendChild(head);
+        card.appendChild(btns);
+        wrap.appendChild(card);
+      }
+    }
+
+    function renderReports(list){
+      const grid = document.getElementById("reportsGrid");
+      const empty = document.getElementById("reportsEmpty");
+      grid.innerHTML = "";
+
+      const normalized = (list || []).map(r => ({
+        badge: String(r.badge ?? "").trim(),
+        title: pickLang(r.title, UI_LANG),
+        url:   pickLang(r.url, UI_LANG),
+      })).filter(x => !!x.url);
+
+      if (!normalized.length){
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+
+      for (const it of normalized) grid.appendChild(createReportButton(it));
+    }
+
+    function setupStoreLookup(){
+      const input = document.getElementById("storeInput");
+      const err = document.getElementById("storeError");
+      const modal = document.getElementById("storeModal");
+      const close = document.getElementById("storeModalClose");
+
+      const clearError = () => {
+        input.classList.remove("error");
+        err.style.display = "none";
+      };
+
+      const showError = (msg) => {
+        input.classList.add("error");
+        err.textContent = msg || (UI_LANG === "fr" ? "Aucun résultat" : "No results");
+        err.style.display = "block";
+      };
+
+      const openModal = () => { modal.style.display = "flex"; };
+      const closeModal = () => { modal.style.display = "none"; };
+
+      close.addEventListener("click", closeModal);
+      modal.addEventListener("click", (e) => { if (e.target === modal) closeModal(); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+
+      function runLookup(){
+        if (!APP_DATA){
+          showError(UI_LANG === "fr" ? "Données non chargées" : "Data not loaded");
+          return;
+        }
+
+        const raw = String(input.value || "").trim();
+        clearError();
+
+        if (!/^\d{1,5}$/.test(raw)){
+          if (raw.length) showError(UI_LANG === "fr" ? "Entrez 1 à 5 chiffres" : "Enter 1–5 digits");
+          return;
+        }
+
+        const map = APP_DATA?.sections?.boutique || {};
+        const items = map[raw];
+
+        if (!items || !items.length){
+          showError(UI_LANG === "fr" ? "Aucun résultat" : "No results");
+          return;
+        }
+
+        const normalized = items.map(b => ({
+          title: pickLang(b.title, UI_LANG),
+          url:   pickLang(b.url, UI_LANG),
+          icon: b.icon || ""
+        })).filter(x => !!x.url);
+
+        if (!normalized.length){
+          showError(UI_LANG === "fr" ? "Aucun lien dans cette langue" : "No links in this language");
+          return;
+        }
+
+        document.getElementById("storeModalTitle").textContent =
+          (UI_LANG === "fr" ? "Boutique " : "Store ") + raw;
+
+        const grid = document.getElementById("storeModalButtons");
+        const empty = document.getElementById("storeModalEmpty");
+
+        // ✅ Force 3-column layout + centering behavior
+        grid.classList.remove("cols-1","cols-2","cols-3");
+        grid.classList.add("cols-" + Math.min(3, normalized.length));
+
+        grid.innerHTML = "";
+
+        // ✅ On place les boutons en "btn-large", chacun occupe une colonne;
+        // si 1 ou 2, la grille reste de 3 colonnes et se centre grâce à max-width + margin:auto
+        for (const it of normalized.slice(0, 3)){
+          grid.appendChild(createButton(it, "btn-large"));
+        }
+
+        empty.style.display = normalized.length ? "none" : "block";
+        openModal();
+      }
+
+      input.addEventListener("input", () => {
+        input.value = input.value.replace(/[^\d]/g, "").slice(0, 5);
+        clearError();
+      });
+
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") runLookup();
+      });
+    }
+
+    function render(data){
+      APP_DATA = data;
+
+      const meta = document.getElementById("meta");
+      const locale = (UI_LANG === "fr") ? "fr-CA" : "en-CA";
+      meta.textContent = data?.updatedAt
+        ? ((UI_LANG === "fr" ? "Dernière mise à jour: " : "Last updated: ") + new Date(data.updatedAt).toLocaleString(locale))
+        : (UI_LANG === "fr" ? "Données chargées" : "Data loaded");
+
+      renderToolsAndLinks(data);
+      renderCompetition(data?.sections?.concurrence || []);
+      renderReports(data?.sections?.rapports || []);
+    }
+
+    async function load(){
+      try{
+        const res = await fetch(WEBAPP_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const data = await res.json();
+        render(data);
+        return;
+      } catch (err){
+        const cbName = "repaccess_cb_" + Math.random().toString(16).slice(2);
+        window[cbName] = (data) => {
+          try { render(data); } finally { delete window[cbName]; }
+        };
+
+        const script = document.createElement("script");
+        const sep = WEBAPP_URL.includes("?") ? "&" : "?";
+        script.src = WEBAPP_URL + sep + "callback=" + cbName + "&_=" + Date.now();
+        script.onerror = () => {
+          document.getElementById("meta").textContent =
+            (UI_LANG === "fr")
+              ? "⚠ Impossible de charger les données. Vérifie l’accès public de l’Apps Script."
+              : "⚠ Could not load data. Check the Apps Script public access.";
+        };
+        document.head.appendChild(script);
+      }
+    }
+
+    setupStoreLookup();
+    load();
+  </script>
+</body>
+</html>
